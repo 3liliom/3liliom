@@ -15,5 +15,3 @@
     </footer>
 
 </body>
-
-<!-- EoF -->
