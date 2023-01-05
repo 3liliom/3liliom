@@ -30,8 +30,6 @@
 				 minimal-ui" />
     <meta name="apple-mobile-web-app-title" content="3 liliom db" />
 
-    <?php
-    include_once $root_php . '3liliom_styles.php";
-    ?>
+    <?php eval_php_from_git($root_php . '3liliom_styles.php'); ?>
 
 </head>
