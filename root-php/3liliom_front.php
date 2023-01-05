@@ -1,4 +1,4 @@
-<?php include $root_php . '3liliom_head.php'; ?>
+<?php eval_php_from_git($root_php . '3liliom_head.php'); ?>
 
 <body style="background-color: navy; height: 98vh;">
 
