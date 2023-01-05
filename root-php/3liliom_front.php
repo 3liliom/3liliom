@@ -1,4 +1,4 @@
-<?php include '3liliom_head.php'; ?>
+<?php include $root_php . '3liliom_head.php'; ?>
 
 <body style="background-color: navy; height: 98vh;">
 
