@@ -1,5 +1,5 @@
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <?php
     $liliom_db_title = "3liliom";
@@ -15,7 +15,7 @@
     <meta name="keywords" content="egészség, Neolife, gyógyhatású tea, mandala" />
     <meta name="description" content="Neolife webáruház és gyógyhatású teák terjesztése" />
     <meta name="subject" content="Neolife webáruház és gyógyhatású teák terjesztése" />
-    <meta name="author" content="Gabor J. Kiss">
+    <meta name="author" content="Gabor J. Kiss" />
 
     <meta name="revised" content='<?php echo date("m/d/Y") ?>' />
     <meta name="revisit-after" content="3 days" />
