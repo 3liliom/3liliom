@@ -1,6 +1,6 @@
 <?php
 
-function ($GithubRawURI){
+function eval_php_from_git($GithubRawURI){
 
 $ch = curl_init(); 
 curl_setopt($ch, CURLOPT_URL, $GithubRawURI); 
