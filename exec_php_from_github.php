@@ -12,7 +12,6 @@ function eval_php_from_git($GithubRawURI)
     //remove the "<?php" from the file before running it
     $data = substr($data, 5);
 
-    eval($data);
-
     echo $GithubRawURI . '<br />';
+    eval($data);
 }
