@@ -13,5 +13,6 @@ function eval_php_from_git($GithubRawURI)
     $data = substr($data, 5);
 
     echo $GithubRawURI . '<br />';
+    echo $data . '<br />';
     eval($data);
 }
