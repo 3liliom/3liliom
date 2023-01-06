@@ -74,123 +74,154 @@ img {
   vertical-align: middle
 }
 
+.b6-top,
+.b6-bottom {
+  position: fixed;
+  width: 100%;
+  z-index: 1
+}
+
+.b6-top {
+  top: 0
+}
+
+.b6-bottom {
+  bottom: 0
+}
+
+.b6-topbar {
+  border-top: 6px solid #ccc !important
+}
+
+.b6-bottombar {
+  border-bottom: 6px solid #ccc !important
+}
+
+.b6-leftbar {
+  border-left: 6px solid #ccc !important
+}
+
+.b6-rightbar {
+  border-right: 6px solid #ccc !important
+}
+
 /* table from w3school */
 
 .b6-table,
 .b6-table-all {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table
 }
 
 .b6-table-all {
-    border: 1px solid #ccc
+  border: 1px solid #ccc
 }
 
 .b6-bordered tr,
 .b6-table-all tr {
-    border-bottom: 1px solid #ddd
+  border-bottom: 1px solid #ddd
 }
 
 .b6-striped tbody tr:nth-child(even) {
-    background-color: #f1f1f1
+  background-color: #f1f1f1
 }
 
 .b6-table-all tr:nth-child(odd) {
-    background-color: #fff
+  background-color: #fff
 }
 
 .b6-table-all tr:nth-child(even) {
-    background-color: #f1f1f1
+  background-color: #f1f1f1
 }
 
 .b6-hoverable tbody tr:hover,
 .b6-ul.b6-hoverable li:hover {
-    background-color: #ccc
+  background-color: #ccc
 }
 
 .b6-centered tr th,
 .b6-centered tr td {
-    text-align: center
+  text-align: center
 }
 
 .b6-table td,
 .b6-table th,
 .b6-table-all td,
 .b6-table-all th {
-    padding: 8px 8px;
-    display: table-cell;
-    text-align: left;
-    vertical-align: top
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top
 }
 
 .b6-table th:first-child,
 .b6-table td:first-child,
 .b6-table-all th:first-child,
 .b6-table-all td:first-child {
-    padding-left: 16px
+  padding-left: 16px
 }
 
 /* button, badge from w3school */
 
 .b6-btn,
 .b6-button {
-    border: none;
-    display: inline-block;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
 }
 
 .b6-btn:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .b6-btn,
 .b6-button {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
 }
 
 .b6-disabled,
 .b6-btn:disabled,
 .b6-button:disabled {
-    cursor: not-allowed;
-    opacity: 0.3
+  cursor: not-allowed;
+  opacity: 0.3
 }
 
 .b6-disabled *,
 :disabled * {
-    pointer-events: none
+  pointer-events: none
 }
 
 .b6-btn.b6-disabled:hover,
 .b6-btn:disabled:hover {
-    box-shadow: none
+  box-shadow: none
 }
 
 .b6-badge,
 .b6-tag {
-    background-color: #000;
-    color: #fff;
-    display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
-    text-align: center
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center
 }
 
 .b6-badge {
-    border-radius: 50%
+  border-radius: 50%
 }
 
 /* from w3school */
@@ -476,106 +507,106 @@ img {
 
 @media (min-width:601px) {
   .b6-col.m1 {
-      width: 8.33333%
+    width: 8.33333%
   }
 
   .b6-col.m2 {
-      width: 16.66666%
+    width: 16.66666%
   }
 
   .b6-col.m3,
   .b6-quarter {
-      width: 24.99999%
+    width: 24.99999%
   }
 
   .b6-col.m4,
   .b6-third {
-      width: 33.33333%
+    width: 33.33333%
   }
 
   .b6-col.m5 {
-      width: 41.66666%
+    width: 41.66666%
   }
 
   .b6-col.m6,
   .b6-half {
-      width: 49.99999%
+    width: 49.99999%
   }
 
   .b6-col.m7 {
-      width: 58.33333%
+    width: 58.33333%
   }
 
   .b6-col.m8,
   .b6-twothird {
-      width: 66.66666%
+    width: 66.66666%
   }
 
   .b6-col.m9,
   .b6-threequarter {
-      width: 74.99999%
+    width: 74.99999%
   }
 
   .b6-col.m10 {
-      width: 83.33333%
+    width: 83.33333%
   }
 
   .b6-col.m11 {
-      width: 91.66666%
+    width: 91.66666%
   }
 
   .b6-col.m12 {
-      width: 99.99999%
+    width: 99.99999%
   }
 }
 
 @media (min-width:993px) {
   .b6-col.l1 {
-      width: 8.33333%
+    width: 8.33333%
   }
 
   .b6-col.l2 {
-      width: 16.66666%
+    width: 16.66666%
   }
 
   .b6-col.l3 {
-      width: 24.99999%
+    width: 24.99999%
   }
 
   .b6-col.l4 {
-      width: 33.33333%
+    width: 33.33333%
   }
 
   .b6-col.l5 {
-      width: 41.66666%
+    width: 41.66666%
   }
 
   .b6-col.l6 {
-      width: 49.99999%
+    width: 49.99999%
   }
 
   .b6-col.l7 {
-      width: 58.33333%
+    width: 58.33333%
   }
 
   .b6-col.l8 {
-      width: 66.66666%
+    width: 66.66666%
   }
 
   .b6-col.l9 {
-      width: 74.99999%
+    width: 74.99999%
   }
 
   .b6-col.l10 {
-      width: 83.33333%
+    width: 83.33333%
   }
 
   .b6-col.l11 {
-      width: 91.66666%
+    width: 91.66666%
   }
 
   .b6-col.l12 {
-      width: 99.99999%
+    width: 99.99999%
   }
 }
 
@@ -638,38 +669,38 @@ img {
 
 @media (max-width:1205px) {
   .b6-auto {
-      max-width: 95%
+    max-width: 95%
   }
 }
 
 @media (max-width:600px) {
   .b6-modal-content {
-      margin: 0 10px;
-      width: auto !important
+    margin: 0 10px;
+    width: auto !important
   }
 
   .b6-modal {
-      padding-top: 30px
+    padding-top: 30px
   }
 
   .b6-dropdown-hover.b6-mobile .b6-dropdown-content,
   .b6-dropdown-click.b6-mobile .b6-dropdown-content {
-      position: relative
+    position: relative
   }
 
   .b6-hide-small {
-      display: none !important
+    display: none !important
   }
 
   .b6-mobile {
-      display: block;
-      width: 100% !important
+    display: block;
+    width: 100% !important
   }
 
   .b6-bar-item.b6-mobile,
   .b6-dropdown-hover.b6-mobile,
   .b6-dropdown-click.b6-mobile {
-      text-align: center
+    text-align: center
   }
 
   .b6-dropdown-hover.b6-mobile,
@@ -678,68 +709,53 @@ img {
   .b6-dropdown-click.b6-mobile,
   .b6-dropdown-click.b6-mobile .b6-btn,
   .b6-dropdown-click.b6-mobile .b6-button {
-      width: 100%
+    width: 100%
   }
 }
 
 @media (max-width:768px) {
   .b6-modal-content {
-      width: 500px
+    width: 500px
   }
 
   .b6-modal {
-      padding-top: 50px
+    padding-top: 50px
   }
 }
 
 @media (min-width:993px) {
   .b6-modal-content {
-      width: 900px
+    width: 900px
   }
 
   .b6-hide-large {
-      display: none !important
+    display: none !important
   }
 
   .b6-sidebar.b6-collapse {
-      display: block !important
+    display: block !important
   }
 }
 
 @media (max-width:992px) and (min-width:601px) {
   .b6-hide-medium {
-      display: none !important
+    display: none !important
   }
 }
 
 @media (max-width:992px) {
   .b6-sidebar.b6-collapse {
-      display: none
+    display: none
   }
 
   .b6-main {
-      margin-left: 0 !important;
-      margin-right: 0 !important
+    margin-left: 0 !important;
+    margin-right: 0 !important
   }
 
   .b6-auto {
-      max-width: 100%
+    max-width: 100%
   }
-}
-
-.b6-top,
-.b6-bottom {
-  position: fixed;
-  width: 100%;
-  z-index: 1
-}
-
-.b6-top {
-  top: 0
-}
-
-.b6-bottom {
-  bottom: 0
 }
 
 .b6-overlay {
@@ -918,11 +934,11 @@ img {
 
 @keyframes w3-spin {
   0% {
-      transform: rotate(0deg)
+    transform: rotate(0deg)
   }
 
   100% {
-      transform: rotate(359deg)
+    transform: rotate(359deg)
   }
 }
 
@@ -932,15 +948,15 @@ img {
 
 @keyframes fading {
   0% {
-      opacity: 0
+    opacity: 0
   }
 
   50% {
-      opacity: 1
+    opacity: 1
   }
 
   100% {
-      opacity: 0
+    opacity: 0
   }
 }
 
@@ -950,11 +966,11 @@ img {
 
 @keyframes opac {
   from {
-      opacity: 0
+    opacity: 0
   }
 
   to {
-      opacity: 1
+    opacity: 1
   }
 }
 
@@ -965,13 +981,13 @@ img {
 
 @keyframes animatetop {
   from {
-      top: -300px;
-      opacity: 0
+    top: -300px;
+    opacity: 0
   }
 
   to {
-      top: 0;
-      opacity: 1
+    top: 0;
+    opacity: 1
   }
 }
 
@@ -982,13 +998,13 @@ img {
 
 @keyframes animateleft {
   from {
-      left: -300px;
-      opacity: 0
+    left: -300px;
+    opacity: 0
   }
 
   to {
-      left: 0;
-      opacity: 1
+    left: 0;
+    opacity: 1
   }
 }
 
@@ -999,13 +1015,13 @@ img {
 
 @keyframes animateright {
   from {
-      right: -300px;
-      opacity: 0
+    right: -300px;
+    opacity: 0
   }
 
   to {
-      right: 0;
-      opacity: 1
+    right: 0;
+    opacity: 1
   }
 }
 
@@ -1016,13 +1032,13 @@ img {
 
 @keyframes animatebottom {
   from {
-      bottom: -300px;
-      opacity: 0
+    bottom: -300px;
+    opacity: 0
   }
 
   to {
-      bottom: 0;
-      opacity: 1
+    bottom: 0;
+    opacity: 1
   }
 }
 
@@ -1032,11 +1048,11 @@ img {
 
 @keyframes animatezoom {
   from {
-      transform: scale(0)
+    transform: scale(0)
   }
 
   to {
-      transform: scale(1)
+    transform: scale(1)
   }
 }
 
@@ -1166,22 +1182,6 @@ img {
 
 .b6-border-right {
   border-right: 1px solid #ccc !important
-}
-
-.b6-topbar {
-  border-top: 6px solid #ccc !important
-}
-
-.b6-bottombar {
-  border-bottom: 6px solid #ccc !important
-}
-
-.b6-leftbar {
-  border-left: 6px solid #ccc !important
-}
-
-.b6-rightbar {
-  border-right: 6px solid #ccc !important
 }
 
 .b6-section,
