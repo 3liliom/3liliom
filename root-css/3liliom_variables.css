@@ -3,5 +3,6 @@
     --paragraph-font-family: Georgia, 'Times New Roman', Times, serif;
     --code-font-family: 'Courier New', Courier, monospace;
 
-    --develop-bg-color: rgba(240, 248, 255, 0.4);
+    --develop-bg-color: rgba(240, 248, 255, 0.4); /* transparent */
+    --reserved-develop-bg-color: rgba(240, 248, 255, 0.4);
 }
