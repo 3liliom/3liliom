@@ -2,13 +2,14 @@ nav {
     background-color: var(--develop-bg-color);
 }
 
-.b6-top,
-.b6-bottom {
+.b6-top {
   position: fixed;
+  top: 0
   width: 100%;
   z-index: 1
 }
 
-.b6-top {
-  top: 0
+.b6-show {
+  display: block !important
 }
+
