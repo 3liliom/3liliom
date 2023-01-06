@@ -1,20 +1,22 @@
 3 liliom
+========
 
-create a new repository on the command line
+[Markdown Guide][def1]
+----------------------
 
-echo "# 3liliom" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/3liliom/3liliom.git
-git push -u origin main
+###[Getting Started][def2]
 
+###[Basic Syntax][def3]
 
-push an existing repository from the command line
-
-git remote add origin https://github.com/3liliom/3liliom.git
-git branch -M main
-git push -u origin main
+###[Extended Syntax][def4]
 
 
+[def1]: https://www.markdownguide.org/
+[def2]: https://www.markdownguide.org/getting-started/
+[def3]: https://www.markdownguide.org/basic-syntax/
+[def4]: https://www.markdownguide.org/extended-syntax/
+
+[Font Awesome 4][def]
+
+
+[def]: https://fontawesome.com/v4/get-started/
