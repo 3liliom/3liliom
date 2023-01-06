@@ -64,3 +64,61 @@ details {
   font-size: 1em;
   font-weight: 300;
 }
+
+/* table from w3school */
+
+.b6-table,
+.b6-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+.b6-table-all {
+    border: 1px solid #ccc
+}
+
+.b6-bordered tr,
+.b6-table-all tr {
+    border-bottom: 1px solid #ddd
+}
+
+.b6-striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.b6-table-all tr:nth-child(odd) {
+    background-color: #fff
+}
+
+.b6-table-all tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.b6-hoverable tbody tr:hover,
+.b6-ul.b6-hoverable li:hover {
+    background-color: #ccc
+}
+
+.b6-centered tr th,
+.b6-centered tr td {
+    text-align: center
+}
+
+.b6-table td,
+.b6-table th,
+.b6-table-all td,
+.b6-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
+}
+
+.b6-table th:first-child,
+.b6-table td:first-child,
+.b6-table-all th:first-child,
+.b6-table-all td:first-child {
+    padding-left: 16px
+}
