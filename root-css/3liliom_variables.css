@@ -5,4 +5,8 @@
 
     --develop-bg-color: rgba(240, 248, 255, 0.4); /* transparent */
     --reserved-develop-bg-color: rgba(240, 248, 255, 0.4);
+
+    --padding-w: 1em;
+    --padding-h: 0.5em;
+    --padding-medium: 0.5em;
 }
