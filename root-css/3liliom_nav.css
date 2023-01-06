@@ -19,7 +19,7 @@ nav {
 
 .b6-top-navbar-text {
     color: darkslateblue;
-    text-shadow: 0 0 var(--padding-medium) white, 0 0 16px whitesmoke;
+    text-shadow: 0 0 var(--padding-medium) white, 0 0 var(--padding-larger) whitesmoke;
 }
 
 
@@ -42,7 +42,7 @@ nav {
 .b6-button {
     border: none;
     display: inline-block;
-    padding: 8px 16px;
+    padding: var(--padding-medium) var(--padding-larger);
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
