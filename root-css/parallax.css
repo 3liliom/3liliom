@@ -18,19 +18,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../root-imgs/kalahari.jpg');
+  background-image: url('https://3liliom.hu/root-imgs/kalahari.jpg');
   min-height: 100vh;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("../root-imgs/pacsirta.jpg");
+  background-image: url("https://3liliom.hu/root-imgs/pacsirta.jpg");
   min-height: 50vh;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("../root-imgs/mandala.jpg");
+  background-image: url("https://3liliom.hu/root-imgs/mandala.jpg");
   min-height: 50vh;
 }
 
