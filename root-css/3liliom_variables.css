@@ -6,8 +6,10 @@
     --develop-bg-color: rgba(240, 248, 255, 0.4);
     --reserved-develop-bg-color: rgba(240, 248, 255, 0.4);
 
-    --padding-w: 1em;
-    --padding-h: 0.5em;
+    --shadow-smaller: 0.3em;
+    --shadow-medium: 0.5em;
+    --shadow-larger: 1em;
+    --shadow-large: 1.2em;
     --padding-larger: 1em;
     --padding-medium: 0.5em;
 }

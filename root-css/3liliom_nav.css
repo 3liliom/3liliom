@@ -19,7 +19,7 @@ nav {
 
 .b6-top-navbar-text {
     color: darkslateblue;
-    text-shadow: 0 0 var(--padding-medium) white, 0 0 var(--padding-larger) whitesmoke;
+    text-shadow: 0 0 var(--shadow-medium) white, 0 0 var(--shadow-larger) whitesmoke;
 }
 
 
@@ -53,7 +53,8 @@ nav {
 }
 
 .b6-btn:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 var(--shadow-medium) var(--shadow-larger) 0 rgba(0, 0, 0, 0.2),
+        0 var(--shadow-smaller) var(--shadow-large) 0 rgba(0, 0, 0, 0.19)
 }
 
 .b6-btn,
@@ -88,8 +89,8 @@ nav {
     background-color: #000;
     color: #fff;
     display: inline-block;
-    padding-left:  var(--padding-medium);
-    padding-right:  var(--padding-medium);
+    padding-left: var(--padding-medium);
+    padding-right: var(--padding-medium);
     text-align: center
 }
 
@@ -162,7 +163,7 @@ nav {
 .b6-bar-block .b6-dropdown-click .b6-button {
     width: 100%;
     text-align: left;
-    padding:  var(--padding-medium) var(--padding-larger);
+    padding: var(--padding-medium) var(--padding-larger);
 }
 
 .b6-black,
