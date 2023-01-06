@@ -1,0 +1,26 @@
+.b6-hover-opacity {
+    cursor: pointer;
+}
+
+.b6-display-container {
+    position: relative
+}
+
+.b6-opacity,
+.b6-hover-opacity:hover {
+  opacity: 0.60
+}
+
+.b6-opacity-off,
+.b6-hover-opacity-off:hover {
+  opacity: 1
+}
+
+.b6-opacity-max {
+  opacity: 0.25
+}
+
+.b6-opacity-min {
+  opacity: 0.75
+}
+
