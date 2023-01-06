@@ -19,7 +19,7 @@ nav {
 
 .b6-top-navbar-text {
     color: darkslateblue;
-    text-shadow: 0 0 6px white, 0 0 16px whitesmoke;
+    text-shadow: 0 0 var(--padding-medium) white, 0 0 16px whitesmoke;
 }
 
 
