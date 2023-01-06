@@ -1,7 +1,36 @@
-body, html {
-    height: 100vh;
-    color: #777;
-    line-height: 1.8;
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('https://3liliom.hu/root-imgs/kalahari.jpg');
+  min-height: 100vh;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("https://3liliom.hu/root-imgs/pacsirta.jpg");
+  min-height: 50vh;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("https://3liliom.hu/root-imgs/mandala.jpg");
+  min-height: 50vh;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1200px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 50vh;
   }
+}
+
   
   
