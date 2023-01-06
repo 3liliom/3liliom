@@ -2,6 +2,14 @@ nav {
     background-color: var(--develop-bg-color);
 }
 
+.b6-left {
+    float: left !important
+}
+
+.b6-right {
+    float: right !important
+}
+
 .b6-top {
     position: fixed;
     top: 0;
@@ -9,6 +17,17 @@ nav {
     z-index: 1
 }
 
+.b6-top-navbar-text {
+    color: darkslateblue;
+    text-shadow: 0 0 6px white, 0 0 16px whitesmoke;
+}
+
+
+.b6-hide {
+    display: none !important
+}
+
+.b6-show-block,
 .b6-show {
     display: block !important
 }
@@ -112,4 +131,34 @@ nav {
 
 .b6-bar .b6-button {
     white-space: normal
+}
+
+.b6-black,
+.b6-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.b6-white,
+.b6-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+
+@media (min-width:993px) {
+    .b6-hide-large {
+        display: none !important
+    }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+    .b6-hide-medium {
+        display: none !important
+    }
+}
+
+@media (max-width:600px) {
+    .b6-hide-small {
+        display: none !important
+    }
 }
