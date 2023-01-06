@@ -3,13 +3,51 @@ nav {
 }
 
 .b6-top {
-  position: fixed;
-  top: 0
-  width: 100%;
-  z-index: 1
+    position: fixed;
+    top: 0 width: 100%;
+    z-index: 1
 }
 
 .b6-show {
-  display: block !important
+    display: block !important
 }
 
+.b6-center {
+    text-align: center !important
+  }
+  
+.b6-bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.b6-bar:before,
+.b6-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.b6-bar .b6-dropdown-hover,
+.b6-bar .b6-dropdown-click {
+    position: static;
+    float: left
+}
+
+.b6-center .b6-bar {
+    display: inline-block;
+    width: auto
+}
+
+.b6-bar .b6-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.b6-bar .b6-button {
+    white-space: normal
+}
