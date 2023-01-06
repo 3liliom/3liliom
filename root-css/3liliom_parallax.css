@@ -49,8 +49,8 @@
 	left: 50%;
 	color: #f8f8f8;
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-	font-size: 6vmin;
-	line-height: 9vmin;
+	font-size: 5vmin;
+	line-height: 7vmin;
 	transform: translate(-50%, -50%);
   }
   
