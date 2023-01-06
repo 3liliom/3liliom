@@ -133,6 +133,38 @@ nav {
     white-space: normal
 }
 
+.b6-bar-block .b6-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.b6-bar-block.b6-center .b6-bar-item {
+    text-align: center
+}
+
+.b6-bar-block .b6-dropdown-hover,
+.b6-bar-block .b6-dropdown-click {
+    width: 100%
+}
+
+.b6-bar-block .b6-dropdown-hover .b6-dropdown-content,
+.b6-bar-block .b6-dropdown-click .b6-dropdown-content {
+    min-width: 100%
+}
+
+.b6-bar-block .b6-dropdown-hover .b6-button,
+.b6-bar-block .b6-dropdown-click .b6-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
+}
+
 .b6-black,
 .b6-hover-black:hover {
     color: #fff !important;
