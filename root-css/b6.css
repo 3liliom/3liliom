@@ -18,13 +18,13 @@ a {
 }
 
 .karacsony {
-  background-image: url('../root-imgs/karacsony.gif'), url('../root-imgs/karacsonyfa.png');
+  background-image: url('https://3liliom.hu/root-imgs/karacsony.gif'), url('https://3liliom.hu/root-imgs/karacsonyfa.png');
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .buek {
-  background-image: url('../root-imgs/kar-buek.gif');
+  background-image: url('https://3liliom.hu/root-imgs/kar-buek.gif');
   background-repeat: no-repeat;
   background-position: center center;
 }
