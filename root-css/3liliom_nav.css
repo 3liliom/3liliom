@@ -166,18 +166,6 @@ nav {
     padding: var(--padding-medium) var(--padding-larger);
 }
 
-.b6-black,
-.b6-hover-black:hover {
-    color: #fff !important;
-    background-color: #000 !important
-}
-
-.b6-white,
-.b6-hover-white:hover {
-    color: #000 !important;
-    background-color: #fff !important
-}
-
 @media (min-width:993px) {
     .b6-hide-large {
         display: none !important

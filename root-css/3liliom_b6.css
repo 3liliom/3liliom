@@ -256,3 +256,488 @@
         width: 99.99999%
     }
 }
+
+/* Colors */
+.b6-amber,
+.b6-hover-amber:hover {
+    color: #000 !important;
+    background-color: #ffc107 !important
+}
+
+.b6-aqua,
+.b6-hover-aqua:hover {
+    color: #000 !important;
+    background-color: #00ffff !important
+}
+
+.b6-blue,
+.b6-hover-blue:hover {
+    color: #fff !important;
+    background-color: #2196F3 !important
+}
+
+.b6-light-blue,
+.b6-hover-light-blue:hover {
+    color: #000 !important;
+    background-color: #87CEEB !important
+}
+
+.b6-brown,
+.b6-hover-brown:hover {
+    color: #fff !important;
+    background-color: #795548 !important
+}
+
+.b6-cyan,
+.b6-hover-cyan:hover {
+    color: #000 !important;
+    background-color: #00bcd4 !important
+}
+
+.b6-blue-grey,
+.b6-hover-blue-grey:hover,
+.b6-blue-gray,
+.b6-hover-blue-gray:hover {
+    color: #fff !important;
+    background-color: #607d8b !important
+}
+
+.b6-green,
+.b6-hover-green:hover {
+    color: #fff !important;
+    background-color: #4CAF50 !important
+}
+
+.b6-light-green,
+.b6-hover-light-green:hover {
+    color: #000 !important;
+    background-color: #8bc34a !important
+}
+
+.b6-indigo,
+.b6-hover-indigo:hover {
+    color: #fff !important;
+    background-color: #3f51b5 !important
+}
+
+.b6-khaki,
+.b6-hover-khaki:hover {
+    color: #000 !important;
+    background-color: #f0e68c !important
+}
+
+.b6-lime,
+.b6-hover-lime:hover {
+    color: #000 !important;
+    background-color: #cddc39 !important
+}
+
+.b6-orange,
+.b6-hover-orange:hover {
+    color: #000 !important;
+    background-color: #ff9800 !important
+}
+
+.b6-deep-orange,
+.b6-hover-deep-orange:hover {
+    color: #fff !important;
+    background-color: #ff5722 !important
+}
+
+.b6-pink,
+.b6-hover-pink:hover {
+    color: #fff !important;
+    background-color: #e91e63 !important
+}
+
+.b6-purple,
+.b6-hover-purple:hover {
+    color: #fff !important;
+    background-color: #9c27b0 !important
+}
+
+.b6-deep-purple,
+.b6-hover-deep-purple:hover {
+    color: #fff !important;
+    background-color: #673ab7 !important
+}
+
+.b6-red,
+.b6-hover-red:hover {
+    color: #fff !important;
+    background-color: #f44336 !important
+}
+
+.b6-sand,
+.b6-hover-sand:hover {
+    color: #000 !important;
+    background-color: #fdf5e6 !important
+}
+
+.b6-teal,
+.b6-hover-teal:hover {
+    color: #fff !important;
+    background-color: #009688 !important
+}
+
+.b6-yellow,
+.b6-hover-yellow:hover {
+    color: #000 !important;
+    background-color: #ffeb3b !important
+}
+
+.b6-white,
+.b6-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+
+.b6-black,
+.b6-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.b6-grey,
+.b6-hover-grey:hover,
+.b6-gray,
+.b6-hover-gray:hover {
+    color: #000 !important;
+    background-color: #9e9e9e !important
+}
+
+.b6-light-grey,
+.b6-hover-light-grey:hover,
+.b6-light-gray,
+.b6-hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.b6-dark-grey,
+.b6-hover-dark-grey:hover,
+.b6-dark-gray,
+.b6-hover-dark-gray:hover {
+    color: #fff !important;
+    background-color: #616161 !important
+}
+
+.b6-pale-red,
+.b6-hover-pale-red:hover {
+    color: #000 !important;
+    background-color: #ffdddd !important
+}
+
+.b6-pale-green,
+.b6-hover-pale-green:hover {
+    color: #000 !important;
+    background-color: #ddffdd !important
+}
+
+.b6-pale-yellow,
+.b6-hover-pale-yellow:hover {
+    color: #000 !important;
+    background-color: #ffffcc !important
+}
+
+.b6-pale-blue,
+.b6-hover-pale-blue:hover {
+    color: #000 !important;
+    background-color: #ddffff !important
+}
+
+.b6-text-amber,
+.b6-hover-text-amber:hover {
+    color: #ffc107 !important
+}
+
+.b6-text-aqua,
+.b6-hover-text-aqua:hover {
+    color: #00ffff !important
+}
+
+.b6-text-blue,
+.b6-hover-text-blue:hover {
+    color: #2196F3 !important
+}
+
+.b6-text-light-blue,
+.b6-hover-text-light-blue:hover {
+    color: #87CEEB !important
+}
+
+.b6-text-brown,
+.b6-hover-text-brown:hover {
+    color: #795548 !important
+}
+
+.b6-text-cyan,
+.b6-hover-text-cyan:hover {
+    color: #00bcd4 !important
+}
+
+.b6-text-blue-grey,
+.b6-hover-text-blue-grey:hover,
+.b6-text-blue-gray,
+.b6-hover-text-blue-gray:hover {
+    color: #607d8b !important
+}
+
+.b6-text-green,
+.b6-hover-text-green:hover {
+    color: #4CAF50 !important
+}
+
+.b6-text-light-green,
+.b6-hover-text-light-green:hover {
+    color: #8bc34a !important
+}
+
+.b6-text-indigo,
+.b6-hover-text-indigo:hover {
+    color: #3f51b5 !important
+}
+
+.b6-text-khaki,
+.b6-hover-text-khaki:hover {
+    color: #b4aa50 !important
+}
+
+.b6-text-lime,
+.b6-hover-text-lime:hover {
+    color: #cddc39 !important
+}
+
+.b6-text-orange,
+.b6-hover-text-orange:hover {
+    color: #ff9800 !important
+}
+
+.b6-text-deep-orange,
+.b6-hover-text-deep-orange:hover {
+    color: #ff5722 !important
+}
+
+.b6-text-pink,
+.b6-hover-text-pink:hover {
+    color: #e91e63 !important
+}
+
+.b6-text-purple,
+.b6-hover-text-purple:hover {
+    color: #9c27b0 !important
+}
+
+.b6-text-deep-purple,
+.b6-hover-text-deep-purple:hover {
+    color: #673ab7 !important
+}
+
+.b6-text-red,
+.b6-hover-text-red:hover {
+    color: #f44336 !important
+}
+
+.b6-text-sand,
+.b6-hover-text-sand:hover {
+    color: #fdf5e6 !important
+}
+
+.b6-text-teal,
+.b6-hover-text-teal:hover {
+    color: #009688 !important
+}
+
+.b6-text-yellow,
+.b6-hover-text-yellow:hover {
+    color: #d2be0e !important
+}
+
+.b6-text-white,
+.b6-hover-text-white:hover {
+    color: #fff !important
+}
+
+.b6-text-black,
+.b6-hover-text-black:hover {
+    color: #000 !important
+}
+
+.b6-text-grey,
+.b6-hover-text-grey:hover,
+.b6-text-gray,
+.b6-hover-text-gray:hover {
+    color: #757575 !important
+}
+
+.b6-text-light-grey,
+.b6-hover-text-light-grey:hover,
+.b6-text-light-gray,
+.b6-hover-text-light-gray:hover {
+    color: #f1f1f1 !important
+}
+
+.b6-text-dark-grey,
+.b6-hover-text-dark-grey:hover,
+.b6-text-dark-gray,
+.b6-hover-text-dark-gray:hover {
+    color: #3a3a3a !important
+}
+
+.b6-border-amber,
+.b6-hover-border-amber:hover {
+    border-color: #ffc107 !important
+}
+
+.b6-border-aqua,
+.b6-hover-border-aqua:hover {
+    border-color: #00ffff !important
+}
+
+.b6-border-blue,
+.b6-hover-border-blue:hover {
+    border-color: #2196F3 !important
+}
+
+.b6-border-light-blue,
+.b6-hover-border-light-blue:hover {
+    border-color: #87CEEB !important
+}
+
+.b6-border-brown,
+.b6-hover-border-brown:hover {
+    border-color: #795548 !important
+}
+
+.b6-border-cyan,
+.b6-hover-border-cyan:hover {
+    border-color: #00bcd4 !important
+}
+
+.b6-border-blue-grey,
+.b6-hover-border-blue-grey:hover,
+.b6-border-blue-gray,
+.b6-hover-border-blue-gray:hover {
+    border-color: #607d8b !important
+}
+
+.b6-border-green,
+.b6-hover-border-green:hover {
+    border-color: #4CAF50 !important
+}
+
+.b6-border-light-green,
+.b6-hover-border-light-green:hover {
+    border-color: #8bc34a !important
+}
+
+.b6-border-indigo,
+.b6-hover-border-indigo:hover {
+    border-color: #3f51b5 !important
+}
+
+.b6-border-khaki,
+.b6-hover-border-khaki:hover {
+    border-color: #f0e68c !important
+}
+
+.b6-border-lime,
+.b6-hover-border-lime:hover {
+    border-color: #cddc39 !important
+}
+
+.b6-border-orange,
+.b6-hover-border-orange:hover {
+    border-color: #ff9800 !important
+}
+
+.b6-border-deep-orange,
+.b6-hover-border-deep-orange:hover {
+    border-color: #ff5722 !important
+}
+
+.b6-border-pink,
+.b6-hover-border-pink:hover {
+    border-color: #e91e63 !important
+}
+
+.b6-border-purple,
+.b6-hover-border-purple:hover {
+    border-color: #9c27b0 !important
+}
+
+.b6-border-deep-purple,
+.b6-hover-border-deep-purple:hover {
+    border-color: #673ab7 !important
+}
+
+.b6-border-red,
+.b6-hover-border-red:hover {
+    border-color: #f44336 !important
+}
+
+.b6-border-sand,
+.b6-hover-border-sand:hover {
+    border-color: #fdf5e6 !important
+}
+
+.b6-border-teal,
+.b6-hover-border-teal:hover {
+    border-color: #009688 !important
+}
+
+.b6-border-yellow,
+.b6-hover-border-yellow:hover {
+    border-color: #ffeb3b !important
+}
+
+.b6-border-white,
+.b6-hover-border-white:hover {
+    border-color: #fff !important
+}
+
+.b6-border-black,
+.b6-hover-border-black:hover {
+    border-color: #000 !important
+}
+
+.b6-border-grey,
+.b6-hover-border-grey:hover,
+.b6-border-gray,
+.b6-hover-border-gray:hover {
+    border-color: #9e9e9e !important
+}
+
+.b6-border-light-grey,
+.b6-hover-border-light-grey:hover,
+.b6-border-light-gray,
+.b6-hover-border-light-gray:hover {
+    border-color: #f1f1f1 !important
+}
+
+.b6-border-dark-grey,
+.b6-hover-border-dark-grey:hover,
+.b6-border-dark-gray,
+.b6-hover-border-dark-gray:hover {
+    border-color: #616161 !important
+}
+
+.b6-border-pale-red,
+.b6-hover-border-pale-red:hover {
+    border-color: #ffe7e7 !important
+}
+
+.b6-border-pale-green,
+.b6-hover-border-pale-green:hover {
+    border-color: #e7ffe7 !important
+}
+
+.b6-border-pale-yellow,
+.b6-hover-border-pale-yellow:hover {
+    border-color: #ffffcc !important
+}
+
+.b6-border-pale-blue,
+.b6-hover-border-pale-blue:hover {
+    border-color: #e7ffff !important
+}
