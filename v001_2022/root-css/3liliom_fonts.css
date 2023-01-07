@@ -1,0 +1,63 @@
+  html {
+    font-family: var(--main-font-family);
+  }
+
+  p {
+    font-family: var(--paragraph-font-family);
+  }
+
+  code {
+    font-family: var(--code-font-family);
+  }
+
+  .b6-serif {
+    font-family: serif
+  }
+
+  .b6-sans-serif {
+    font-family: sans-serif
+  }
+
+  .b6-cursive {
+    font-family: cursive
+  }
+
+  .b6-monospace {
+    font-family: monospace
+  }
+
+  .b6-wide {
+    letter-spacing: 0.5em
+  }
+
+  .b6-tiny {
+    font-size: 10px !important
+  }
+
+  .b6-small {
+    font-size: 12px !important
+  }
+
+  .b6-medium {
+    font-size: 15px !important
+  }
+
+  .b6-large {
+    font-size: 18px !important
+  }
+
+  .b6-xlarge {
+    font-size: 24px !important
+  }
+
+  .b6-xxlarge {
+    font-size: 36px !important
+  }
+
+  .b6-xxxlarge {
+    font-size: 48px !important
+  }
+
+  .b6-jumbo {
+    font-size: 64px !important
+  }

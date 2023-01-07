@@ -1,0 +1,25 @@
+:root {
+    --main-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --paragraph-font-family: Georgia, 'Times New Roman', Times, serif;
+    --code-font-family: 'Courier New', Courier, monospace;
+
+    --shadow-smaller: 0.3em;
+    --shadow-medium: 0.5em;
+    --shadow-larger: 1em;
+    --shadow-large: 1.2em;
+    --padding-larger: 1em;
+    --padding-medium: 0.5em;
+}
+
+body {
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+
+.develop {
+    color: black;
+    background-color: rgba(240, 248, 255, 0.4);
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow: scroll;
+}
