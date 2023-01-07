@@ -6,6 +6,6 @@ function loadContents() {
 async function getText(file, id) {
     let myObject = await fetch(file);
     let myText = await myObject.text();
-    console.log(myText);
+    //console.log(myText);
     document.getElementById(id).innerHTML = myText;
 }
