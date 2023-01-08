@@ -1,0 +1,8 @@
+:root {
+    --day-of-origin: '2023-01-06';
+}
+
+body {
+    min-height: 100%;
+    background-color: navy;
+}
