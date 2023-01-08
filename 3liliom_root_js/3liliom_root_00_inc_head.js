@@ -5,6 +5,6 @@ getText("3liliom_root_html/3liliom_root_index_head.html");
 async function getText(file) {
     let myObject = await fetch(file);
     let myText = await myObject.text();
-    console.log(myText);
+    //console.log(myText);
     document.getElementsByTagName("head")[0].innerHTML = myText;
 }
