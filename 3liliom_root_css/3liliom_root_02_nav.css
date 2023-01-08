@@ -1,0 +1,60 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-top {
+    position: static;
+    float: left;
+    width: 100%;
+    color: darkslateblue;
+    overflow: hidden;
+}
+
+.navbar-top:before,
+.navbar-top:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center-content .navbar-top {
+    text-align: center;
+}
+
+.navbar-top-item {
+    display: inline-block;
+    padding: var(--padding-medium) var(--padding-larger);
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    text-shadow: 0 0 8px white, 0 0 16px whitesmoke;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar-top .navbar-top-item {
+    white-space: normal;
+}
+
+.navbar-top-item:hover {
+    color: black !important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-top-item:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
