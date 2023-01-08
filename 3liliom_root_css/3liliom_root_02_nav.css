@@ -26,7 +26,7 @@
 
 .navbar-top-item {
     display: inline-block;
-    padding: var(--padding-medium) var(--padding-larger);
+    padding: 8px 16px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
@@ -35,17 +35,13 @@
     text-shadow: 0 0 8px white, 0 0 16px whitesmoke;
     border: none;
     cursor: pointer;
-    white-space: nowrap;
+    white-space: normal;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-.navbar-top .navbar-top-item {
-    white-space: normal;
 }
 
 .navbar-top-item:hover {
@@ -64,4 +60,16 @@
     color: darkslateblue;
     background-color: white;
     overflow: hidden;
+}
+
+.navbar-toggle .navbar-top-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    float: none;
+    outline: 0;
+}
+
+.navbar-toggle.center-content .navbar-top-item {
+    text-align: center;
 }
