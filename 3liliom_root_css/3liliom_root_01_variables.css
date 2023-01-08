@@ -4,7 +4,7 @@
 
 body {
     min-height: 100%;
-    background-color: navy;
+    background-color: rgba(0, 0, 128, 0.25);
 }
 
 .center-content {
