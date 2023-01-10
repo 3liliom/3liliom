@@ -19,6 +19,22 @@ body {
     float: left;
 }
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
 .hide {
     display: none !important;
 }
