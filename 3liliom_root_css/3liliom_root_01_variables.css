@@ -1,5 +1,21 @@
 :root {
     --day-of-origin: '2023-01-06';
+
+    --body-background-color: rgba(0, 0, 128, 0.25);
+
+    --max-content-width: 1024px;
+
+    --row-padding-h: 0.5em;
+    --row-padding-w: 0.25em;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bottom {
+    margin: 1em auto 0;
+    max-width: var(--max-content-width);
 }
 
 html {
@@ -8,7 +24,15 @@ html {
 
 body {
     min-height: 100%;
-    background-color: rgba(0, 0, 128, 0.25);
+    background-color: var(--body-background-color)
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-grey {
+    background-color: grey;
 }
 
 .center-content {
@@ -39,6 +63,18 @@ body {
 
 .sticky-content {
     position: sticky;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.flex-col {
+    flex-grow: 1;
 }
 
 .hide {
