@@ -1,10 +1,3 @@
-.fixed-top {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-}
-
 .navbar-top {
     position: static;
     float: left;
@@ -52,6 +45,7 @@
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.navbar-top-ikon:focus~.navbar-top-item,
 .navbar-top-ikon:active~.navbar-top-item {
     display: block !important;
 }
