@@ -24,6 +24,7 @@
     text-align: center;
 }
 
+.navbar-top-ikon,
 .navbar-top-item {
     display: inline-block;
     padding: 8px 16px;
@@ -44,10 +45,15 @@
     user-select: none;
 }
 
+.navbar-top-ikon:hover,
 .navbar-top-item:hover {
     color: black !important;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-top-ikon:active~.navbar-top-item {
+    display: block !important;
 }
 
 .navbar-top-item:disabled {
