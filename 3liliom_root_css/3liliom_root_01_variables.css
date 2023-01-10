@@ -37,7 +37,9 @@ body {
     z-index: 10;
 }
 
-
+.sticky-content {
+    position: sticky;
+}
 
 .hide {
     display: none !important;
