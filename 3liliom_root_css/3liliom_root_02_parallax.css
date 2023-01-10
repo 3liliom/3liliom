@@ -9,19 +9,19 @@
 
 /* First image (Logo. Full height) */
 .parallax-img-1 {
-	background-image: url('https://3liliom.hu/root-imgs/kalahari.jpg');
+	background-image: url('https://3liliom.hu/3liliom_root_contents/parallax_img_01.jpg');
 	min-height: 100vh;
 }
 
 /* Second image (Portfolio) */
 .parallax-img-2 {
-	background-image: url("https://3liliom.hu/root-imgs/pacsirta.jpg");
+	background-image: url("https://3liliom.hu/3liliom_root_contents/parallax_img_02.jpg");
 	min-height: 100vh;
 }
 
 /* Third image (Contact) */
 .parallax-img-3 {
-	background-image: url("https://3liliom.hu/root-imgs/mandala.jpg");
+	background-image: url("https://3liliom.hu/3liliom_root_contents/parallax_img_03.jpg");
 	min-height: 100vh;
 }
 
