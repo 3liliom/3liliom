@@ -33,47 +33,43 @@
     <meta name="apple-mobile-web-app-title" content="3 liliom" />
 
     <!-- Page stylesheet -->
-    <link rel="stylesheet" href="3liliom_root_css/3liliom_root_00_styles.css">F
+    <link rel="stylesheet" href="3liliom_root_css/3liliom_root_00_styles.css">
 </head>
 
-<body onload="loadContents()">
-    <script src="3liliom_root_js/3liliom_root_00_inc_head.js"></script>
-
+<body>
     <header id="home">
-        <nav>
-            <!-- ---------------------------------------------------------------- -->
-            <!-- Navbar (sit on top) -->
-            <!-- ---------------------------------------------------------------- -->
-            <div class="fixed-top">
-                <div id="topNavbar" class="navbar-top hide-small">
-                    <a href="#home" class="navbar-top-item"><i class="fa fa-home"></i> </a>
-                    <a href="#about" class="navbar-top-item"><i class="fa fa-user"></i>
-                        &nbsp;3&nbsp;LILIOM</a>
-                    <a href="#portfolio" class="navbar-top-ite"><i class="fa fa-th"></i>
-                        &nbsp;MAGAZIN</a>
-                    <a href="#contact" class="navbar-top-item"><i class="fa fa-envelope"></i>&nbsp;KAPCSOLAT</a>
-                    <a href="https://3liliom.hu/shop" class="navbar-top-item"><i
-                            class="fa fa-shopping-bag"></i>&nbsp;WEBSHOP</a>
-                </div>
+        <!-- ---------------------------------------------------------------- -->
+        <!-- Navbar (sit on top) -->
+        <!-- ---------------------------------------------------------------- -->
+        <nav class="fixed-top">
+            <div id="topNavbar" class="navbar-top hide-small">
+                <a href="#home" class="navbar-top-item"><i class="fa fa-home"></i> </a>
+                <a href="#about" class="navbar-top-item"><i class="fa fa-user"></i>
+                    &nbsp;3&nbsp;LILIOM</a>
+                <a href="#portfolio" class="navbar-top-ite"><i class="fa fa-th"></i>
+                    &nbsp;MAGAZIN</a>
+                <a href="#contact" class="navbar-top-item"><i class="fa fa-envelope"></i>&nbsp;KAPCSOLAT</a>
+                <a href="https://3liliom.hu/shop" class="navbar-top-item"><i
+                        class="fa fa-shopping-bag"></i>&nbsp;WEBSHOP</a>
+            </div>
 
-                <!-- Navbar on small screens -->
-                <div id="toggleNavbar" class="navbar-toggle hide hide-large hide-medium">
-                    <a href="#home" class="navbar-top-item"><i class="fa fa-home"></i> </a>
-                    <a class="navbar-top-ikon right-content" href="javascript:void(0);" onclick="toggleFunction()"
-                        title="Toggle Navigation Menu"><i class="fa fa-bars"></i>
-                    </a>
-                    <a href="#about" class="navbar-top-item" onclick="toggleFunction()">3 LILIOM</a>
-                    <a href="#portfolio" class="navbar-top-item" onclick="toggleFunction()">MAGAZIN</a>
-                    <a href="#contact" class="navbar-top-item" onclick="toggleFunction()">KAPCSOLAT</a>
-                    <a href="https://3liliom.hu/shop" class="navbar-top-item" onclick="toggleFunction()">WEBSHOP</a>
-                </div>
+            <!-- Navbar on small screens -->
+            <div id="toggleNavbar" class="navbar-toggle hide-large hide-medium">
+                <a href="#home" class="navbar-top-ikon"><i class="fa fa-home"></i> </a>
+                <a class="navbar-top-ikon right-content" href="javascript:void(0);" title="Toggle Navigation Menu"><i
+                        class="fa fa-bars"></i>
+                </a>
+                <a href="#about" class="navbar-top-item hide">3 LILIOM</a>
+                <a href="#portfolio" class="navbar-top-item hide">MAGAZIN</a>
+                <a href="#contact" class="navbar-top-item hide">KAPCSOLAT</a>
+                <a href="https://3liliom.hu/shop" class="navbar-top-item hide">WEBSHOP</a>
             </div>
         </nav>
     </header>
     <main>
 
     </main>
-    <footer>
+    <footer class="fixed-bottom">
         <section id="bottom"> </section>
         <p>
             Copyright &copy; 2022-
@@ -81,8 +77,6 @@
         </p>
     </footer>
 
-    <script src="3liliom_root_js/3liliom_root_01_inc_functions.js"></script>
-    <script src="3liliom_root_js/3liliom_root_01_menu_functions.js"></script>
 </body>
 
 </html>
