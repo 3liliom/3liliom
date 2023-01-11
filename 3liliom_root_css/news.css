@@ -1,0 +1,27 @@
+* {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header,
+main,
+footer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+header {
+    text-align: center;
+    background-color: lightyellow;
+}
+
+img,
+a {
+    padding: 0.5em;
+}
