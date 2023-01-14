@@ -5,24 +5,22 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100vh;
 }
 
 /* First image (Logo. Full height) */
 .parallax-img-1 {
 	background-image: url('https://3liliom.hu/3liliom_root_contents/parallax_img_01.jpg');
-	min-height: 100vh;
 }
 
 /* Second image (Portfolio) */
 .parallax-img-2 {
 	background-image: url("https://3liliom.hu/3liliom_root_contents/parallax_img_02.jpg");
-	min-height: 100vh;
 }
 
 /* Third image (Contact) */
 .parallax-img-3 {
 	background-image: url("https://3liliom.hu/3liliom_root_contents/parallax_img_03.jpg");
-	min-height: 100vh;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -32,7 +30,5 @@
 	.parallax-img-2,
 	.parallax-img-3 {
 		background-attachment: scroll;
-		min-height: 100vh;
 	}
 }
-
