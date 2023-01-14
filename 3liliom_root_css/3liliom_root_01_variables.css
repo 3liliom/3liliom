@@ -7,8 +7,15 @@
 
     --screen-unit: 0.25em;
 
-    --row-padding-h: var(--screen-unit);
-    --row-padding-w: var(--screen-unit);
+    --row-padding-h: calc(2 * var(--screen-unit));
+    --row-padding-w: calc(4 * var(--screen-unit));
+    --h1-padding-h: calc(3 * var(--screen-unit));
+    --h1-padding-w: calc(6 * var(--screen-unit));
+}
+
+header,
+footer {
+    width: 100%;
 }
 
 .flex-row {
@@ -29,23 +36,16 @@
     max-width: var(--max-content-width);
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .flex-content {
     max-width: var(--max-content-width);
     flex: 1 1 auto;
     align-self: center;
-}
-
-header,
-footer {
-    margin: 0 auto;
-    width: 100%;
-    max-width: var(--max-content-width);
 }
 
 a {
@@ -88,13 +88,13 @@ body {
 .fixed-top {
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 1;
 }
 
 .fixed-bottom {
     position: fixed;
     bottom: 0;
-    z-index: 10;
+    z-index: 1;
 }
 
 .sticky-content {
