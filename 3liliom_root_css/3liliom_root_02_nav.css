@@ -1,7 +1,7 @@
 .navbar-top-ikon,
 .navbar-top-item {
     display: inline-block;
-    padding: 8px 16px;
+    padding: var(--row-padding-h) var(--row-padding-w);
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
