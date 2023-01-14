@@ -1,22 +1,3 @@
-.navbar-top {
-    position: static;
-    float: left;
-    width: 100%;
-    color: darkslateblue;
-    overflow: hidden;
-}
-
-.navbar-top:before,
-.navbar-top:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.center-content .navbar-top {
-    text-align: center;
-}
-
 .navbar-top-ikon,
 .navbar-top-item {
     display: inline-block;
@@ -45,8 +26,8 @@
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navbar-top-ikon:focus~.navbar-top-item,
-.navbar-top-ikon:active~.navbar-top-item {
+.navbar-toggle .navbar-top-ikon:focus~.navbar-top-item,
+.navbar-toggle .navbar-top-ikon:active~.navbar-top-item {
     display: block !important;
 }
 
@@ -58,7 +39,6 @@
 .navbar-toggle {
     width: 100%;
     color: darkslateblue;
-    background-color: white;
     overflow: hidden;
 }
 
@@ -68,8 +48,4 @@
     text-align: left;
     float: none;
     outline: 0;
-}
-
-.navbar-toggle.center-content .navbar-top-item {
-    text-align: center;
 }
