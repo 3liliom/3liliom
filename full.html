@@ -42,6 +42,7 @@
         <!-- Navbar (sit on top) -->
         <!-- ---------------------------------------------------------------- -->
         <nav class="fixed-top flex-row">
+            <a id="homeIcon" href="#home" class="navbar-top-ikon"><i class="fa fa-home"></i> </a>
             <div id="topNavbar" class="flex-content hide-small">
                 <a href="#about" class="navbar-top-item"><i class="fa fa-user"></i>
                     &nbsp;3&nbsp;LILIOM</a>
@@ -53,17 +54,26 @@
             </div>
 
             <!-- Navbar on small screens -->
-            <div id="toggleNavbar" class="flex-content navbar-toggle hide-large hide-medium">
-                <a class="navbar-top-ikon right-content" href="javascript:void(0);" title="Toggle Navigation Menu"><i
-                        class="fa fa-bars"></i>
-                </a>
-                <a href="#about" class="navbar-top-item hide">3 LILIOM</a>
-                <a href="#portfolio" class="navbar-top-item hide">MAGAZIN</a>
-                <a href="#contact" class="navbar-top-item hide">KAPCSOLAT</a>
-                <a href="https://3liliom.hu/shop" class="navbar-top-item hide">WEBSHOP</a>
+            <a class="navbar-top-ikon hide-large hide-medium" href="javascript:void(0);" title="Toggle Navigation Menu"
+                onclick="toggleFunction()"><i class="fa fa-bars"></i>
+            </a>
+            <div id="toggleNavbar" class="flex-content navbar-toggle hide">
+                <a href="#about" class="navbar-top-item">3 LILIOM</a>
+                <a href="#portfolio" class="navbar-top-item">MAGAZIN</a>
+                <a href="#contact" class="navbar-top-item">KAPCSOLAT</a>
+                <a href="https://3liliom.hu/shop" class="navbar-top-item">WEBSHOP</a>
             </div>
-            <a href="#home" class="navbar-top-ikon flex-order-1"><i class="fa fa-home"></i> </a>
         </nav>
+        <script>
+            function toggleFunction() {
+                var toggleNavbar = document.getElementById("toggleNavbar");
+                if (toggleNavbar.className.indexOf("hide") == -1) {
+                    toggleNavbar.className += " hide";
+                } else {
+                    toggleNavbar.className = toggleNavbar.className.replace(" hide", "");
+                }
+            }
+        </script>
     </header>
     <main>
 
