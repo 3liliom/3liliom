@@ -39,13 +39,10 @@
 .navbar-toggle {
     width: 100%;
     color: darkslateblue;
-    overflow: hidden;
 }
 
 .navbar-toggle .navbar-top-item {
     display: block;
     width: 100%;
     text-align: left;
-    float: none;
-    outline: 0;
 }
