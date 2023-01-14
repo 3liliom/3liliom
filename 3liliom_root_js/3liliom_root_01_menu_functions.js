@@ -4,7 +4,7 @@ var the_3liliom_date = "2023.01.06";
 function toggleFunction() {
     var x = document.getElementById("toggleNavbar");
     if (x.className.indexOf("show") == -1) {
-        x.className += " b6-show";
+        x.className += " show";
     } else {
         x.className = x.className.replace(" show", "");
     }
