@@ -26,16 +26,6 @@
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navbar-toggle .navbar-top-ikon:focus~.navbar-top-item,
-.navbar-toggle .navbar-top-ikon:active~.navbar-top-item {
-    display: block !important;
-}
-
-.navbar-top-item:disabled {
-    cursor: not-allowed;
-    opacity: 0.3;
-}
-
 .navbar-toggle {
     width: 100%;
     color: darkslateblue;
