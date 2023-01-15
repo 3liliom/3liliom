@@ -13,9 +13,19 @@
     --h1-padding-w: calc(6 * var(--screen-unit));
 }
 
+body {
+    position: relative;
+}
+
 header,
 footer {
     width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: var(--row-padding-h) 0;
 }
 
 .flex-row {
