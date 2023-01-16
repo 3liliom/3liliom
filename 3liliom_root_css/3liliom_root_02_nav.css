@@ -1,5 +1,7 @@
 nav {
+    height: 4vh;
     background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0 0 var(--row-padding-w) var(--row-padding-h);
 }
 
 .navbar-top-ikon,
@@ -9,9 +11,9 @@ nav {
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
-    color: inherit;
+    color: darkslateblue;
     text-align: center;
-    text-shadow: 0 0 8px white, 0 0 16px whitesmoke;
+    text-shadow: 0 0 8px white, 0 0 16px lightgoldenrodyellow;
     border: none;
     cursor: pointer;
     white-space: normal;
@@ -23,9 +25,14 @@ nav {
     user-select: none;
 }
 
+.navbar-top-ikon {
+    border-radius: var(--row-padding-h);
+}
+
 .navbar-top-ikon:hover,
 .navbar-top-item:hover {
     color: black !important;
+    font-size: 1.05em;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
