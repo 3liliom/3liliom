@@ -1,5 +1,3 @@
 .mission-message {
     padding: var(--h1-padding-h) var(--h1-padding-w);
-    color: whitesmoke;
-    text-shadow: 0 0 6px black;
 }
