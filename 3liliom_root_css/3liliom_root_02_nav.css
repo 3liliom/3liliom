@@ -1,6 +1,6 @@
 nav {
     height: 4vh;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: var(--navbar-background-color);
     border-radius: 0 0 var(--row-padding-w) var(--row-padding-h);
 }
 
@@ -44,6 +44,7 @@ nav {
 
 .navbar-toggle .navbar-top-item {
     display: block;
-    width: 100%;
+    width: 100vw;
+    background-color: var(--navbar-background-color);
     text-align: left;
 }
