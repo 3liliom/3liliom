@@ -2,6 +2,7 @@
     --day-of-origin: '2023-01-06';
 
     --body-background-color: rgba(128, 0, 128, 0.25);
+    --navbar-background-color:rgba(255, 255, 255, 0.6);
 
     --max-content-width: 960px;
 
@@ -68,6 +69,11 @@ footer {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-content {
@@ -148,5 +154,10 @@ footer {
 
     .flex-row {
         justify-content: space-between;
+    }
+
+    .flex-center {
+        justify-content: center;
+        align-items: center;
     }
 }
