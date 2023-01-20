@@ -1,14 +1,10 @@
 .mission-message {
-    padding: 0;
-    height: 80vh;
+    padding: var(--h1-padding-h) 0;
+    height: 40vh;
 }
 
 .mission-message h1 {
-    background-image: url("https://3liliom.hu/3liliom.png");
-    background-repeat: no-repeat;
-    background-size: 25%;
-    background-position: center top;
-    padding: calc(4 * var(--h1-padding-h)) var(--h1-padding-w);
+    padding: var(--h1-padding-h) var(--h1-padding-w) 0;
     text-align: center;
 }
 
@@ -16,14 +12,21 @@ main .flex-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: flex-start;
     margin: 0 2vw;
-    height: 15vh;
+    height: 45vh;
     opacity: 0.8;
     overflow: hidden;
 }
 
-.h20 {
-    height: 20vh !important;
+.h60 {
+    height: 60vh !important;
+    border: 1px solid white;
+}
+
+.h50 {
+    align-self: flex-end !important;
+    height: 50vh !important;
 }
 
 main .flex-content:hover {
