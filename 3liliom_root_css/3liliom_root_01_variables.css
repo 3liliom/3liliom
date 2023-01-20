@@ -47,7 +47,7 @@ footer {
     padding: var(--row-padding-h) 0;
 }
 
-.flex-row {
+.flex-table {
     margin: 0 auto;
     width: 100%;
     max-width: var(--max-content-width);
@@ -59,21 +59,14 @@ footer {
     align-content: stretch;
 }
 
-.flex-column {
-    margin: 0 auto;
-    width: 100%;
-    max-width: var(--max-content-width);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
 .flex-center {
     justify-content: center;
     align-items: center;
+}
+
+.flex-bottom {
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .flex-content {
@@ -152,7 +145,7 @@ footer {
         background-color: whitesmoke;
     }
 
-    .flex-row {
+    .flex-table {
         justify-content: space-between;
     }
 
