@@ -1,5 +1,5 @@
 .mission-message {
-    padding: var(--h1-padding-h) 0;
+    padding: 0;
     height: 70vh;
 }
 
@@ -13,17 +13,19 @@
 }
 
 main .flex-content {
-    margin: 10px;
-    height: 8vh;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 900;
-    line-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1vw;
+    height: 25vh;
+    opacity: 0.8;
     overflow: hidden;
 }
 
+.h30 {
+    height: 30vh !important;
+}
+
 main .flex-content:hover {
-    font-size: 1.25rem;
-    text-shadow: 0 0 2px white, 0 0 16px lightgoldenrodyellow;
+    opacity: 1;
 }
