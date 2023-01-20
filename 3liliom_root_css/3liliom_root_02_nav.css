@@ -1,5 +1,5 @@
 nav {
-    height: 4vh;
+    height: 2.25rem;
     background-color: var(--navbar-background-color);
     border-radius: 0 0 var(--row-padding-w) var(--row-padding-h);
 }
@@ -47,4 +47,9 @@ nav {
     width: 100vw;
     background-color: var(--navbar-background-color);
     text-align: left;
+}
+
+.navbar-toggle .navbar-top-item:hover {
+    background-color: aliceblue;
+    opacity: 0.85;
 }
