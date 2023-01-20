@@ -56,7 +56,6 @@ footer {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    align-content: stretch;
 }
 
 .flex-center {
@@ -72,7 +71,6 @@ footer {
 .flex-content {
     max-width: var(--max-content-width);
     flex: 1 1 0;
-    align-self: center;
 }
 
 .bg-red {
