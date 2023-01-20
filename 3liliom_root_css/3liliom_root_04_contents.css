@@ -1,6 +1,6 @@
 .mission-message {
     padding: 0;
-    height: 70vh;
+    height: 80vh;
 }
 
 .mission-message h1 {
@@ -16,14 +16,14 @@ main .flex-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 1vw;
-    height: 25vh;
+    margin: 0 2vw;
+    height: 15vh;
     opacity: 0.8;
     overflow: hidden;
 }
 
-.h30 {
-    height: 30vh !important;
+.h20 {
+    height: 20vh !important;
 }
 
 main .flex-content:hover {
