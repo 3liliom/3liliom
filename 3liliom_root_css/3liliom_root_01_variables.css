@@ -2,11 +2,11 @@
     --day-of-origin: '2023-01-06';
 
     --body-background-color: rgba(128, 0, 128, 0.25);
-    --navbar-background-color: rgba(255, 255, 255, 0.6);
+    --navbar-background-color: rgba(255, 255, 255, 0.85);
 
     --max-content-width: 960px;
 
-    --screen-unit: 0.25em;
+    --screen-unit: 1vmin;
 
     --row-padding-h: calc(2 * var(--screen-unit));
     --row-padding-w: calc(4 * var(--screen-unit));
