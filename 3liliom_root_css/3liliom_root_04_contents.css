@@ -47,6 +47,14 @@ main .flex-table a {
     font-size: 1.25rem;
 }
 
+.flex-auto {
+    flex: auto;
+}
+
+.stretch {
+    align-self: stretch;
+}
+
 .h60 {
     min-height: 60vh !important;
 }
