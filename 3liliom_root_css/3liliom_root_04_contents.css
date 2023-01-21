@@ -19,6 +19,12 @@ main .flex-content {
     text-align: justify;
 }
 
+main h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'Bilbo', cursive;
+}
+
 main .flex-content * {
     width: 100%;
 }
@@ -47,6 +53,5 @@ main .flex-content:hover {
 
     main .flex-content {
         margin: 0;
-        padding: 2rem 1vw !important;
     }
 }
