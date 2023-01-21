@@ -1,7 +1,7 @@
 :root {
     --day-of-origin: '2023-01-06';
 
-    --body-background-color: rgba(128, 0, 128, 0.25);
+    --body-background-color: rgba(0, 0, 0, 0.85);
     --navbar-background-color: rgba(255, 255, 255, 0.85);
 
     --max-content-width: 960px;
@@ -58,14 +58,18 @@ footer {
     align-items: flex-start;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .flex-center {
     justify-content: center;
     align-items: center;
 }
 
 .flex-bottom {
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: center !important;
+    align-items: flex-end !important;
 }
 
 .flex-content {
