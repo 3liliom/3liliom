@@ -1,6 +1,7 @@
 .mission-message {
     padding: var(--h1-padding-h) 0;
     height: 40vh;
+    min-height: 300px;
 }
 
 .mission-message h1 {
@@ -12,23 +13,40 @@ main .flex-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-self: flex-start;
     margin: 0 2vw;
-    height: 45vh;
+    padding: 4vh 2vw 2vh;
     opacity: 0.8;
-    overflow: hidden;
+    text-align: justify;
+}
+
+main .flex-content * {
+    width: 100%;
 }
 
 .h60 {
-    height: 60vh !important;
-    border: 1px solid white;
+    min-height: 60vh !important;
 }
 
-.h50 {
+.flex-grow2 {
+    flex-grow: 2;
+}
+
+.content-self-bottom {
     align-self: flex-end !important;
-    height: 50vh !important;
 }
 
 main .flex-content:hover {
     opacity: 1;
+}
+
+@media (max-width:720px) {
+    main .flex-table {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .flex-content {
+        margin: 0;
+        padding: 2rem 1vw !important;
+    }
 }
