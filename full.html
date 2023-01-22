@@ -97,24 +97,43 @@
                         <h2 class="bg-grey">
                             Itt&nbsp;az&nbsp;ideje&nbsp;az egészségeddel&nbsp;foglalkozni?
                         </h2>
-                        <a href="#mozogj">
+                        <a id="mark01" href="#mozogj" class=" hide">
                             <strong>Mozogj</strong> te is rendszeresen,
                         </a>
-                        <a class="right-text" href="#erezd-magad-jol">
+                        <a id="mark02" class="right-text hide" href="#erezd-magad-jol">
                             <strong>érezd magad jól</strong> a bőrödben,
                         </a>
-                        <a href="#sziveddel">
+                        <a id="mark03" href="#sziveddel" class=" hide">
                             törődj a <strong>szíveddel</strong>,
                         </a>
-                        <a class="right-text" href="#tartsd-karban">
+                        <a id="mark04" class="right-text hide" href="#tartsd-karban">
                             <strong>tartsd karban</strong> az érrendszeredet,
                         </a>
-                        <a href="#egeszseges">
+                        <a id="mark05" href="#egeszseges" class=" hide">
                             táplálkozz <strong>egészségesen</strong>,
                         </a>
-                        <a class="right-text" href="#mozogj">
+                        <a id="mark06" class="right-text hide" href="#mozogj">
                             és csak <strong>élj</strong> egy hoszzú és boldog életet!
                         </a>
+                        <script>
+                            let mark01 = document.getElementById('mark01');
+                            let mark02 = document.getElementById('mark02');
+                            let mark03 = document.getElementById('mark03');
+                            let mark04 = document.getElementById('mark04');
+                            let mark05 = document.getElementById('mark05');
+                            let mark06 = document.getElementById('mark06');
+                            const d = new Date();
+                            day = d.getDate();
+                            if (day % 2 == 0) {
+                                mark01.className = mark01.className.replace(" hide", "");
+                                mark02.className = mark02.className.replace(" hide", "");
+                                mark03.className = mark03.className.replace(" hide", "");
+                            } else {
+                                mark04.className = mark04.className.replace(" hide", "");
+                                mark05.className = mark05.className.replace(" hide", "");
+                                mark06.className = mark06.className.replace(" hide", "");
+                            }
+                        </script>
                         <h3>
                             Csatlakozz azokhoz a milliókhoz, akik már most is a tudatos életmód előnyeivel élnek!
                         </h3>
@@ -151,16 +170,12 @@
                         </h2>
                     </div>
                     <p class="flex-content stretch bg-grey flex-grow2 null-margin-left padding-half">
-                        Igyekezz úgy célt kitűzni, hogy annak ne csalódás legyen a vége.
-                        Olyan célt válassz, aminek reális esélye van a megvalósulásra.
+                        Úgy tűzd ki a célod, hogy reális esélye van a megvalósulásra.
                         Ilyen cél lehet például 10 kg-t fogyni egy év alatt.
-                        Hetente leúszni háromszor 40 hosszt az uszodában.
                     </p>
                     <p class="flex-content flex-auto bg-grey padding-half">
-                        Szokásaidon akkor tudsz változtatni, ha önmagadat megismerve, felismered azokat.
-                        Célozd meg azokat a szokásaidat, amiket meg kell változtatni a célod elérése érdekében.
+                        Célod eléréséhez változtasd meg szokásaidat, tudatosan alakítsd át életmódodat.
                         Ha például fogyni szeretnél, akkor nem szabad cukros és olajos ételeket fogyasztanod.
-                        A változást ne egyszerre akard elérni. Lépésenként, tudatosan alakítsd át életmódodat.
                     </p>
                     <div class="flex-content stretch bg-red null-margin-right padding-half">
                         <h2 class="bg-grey">
@@ -168,15 +183,13 @@
                         </h2>
                     </div>
                     <p class="flex-content stretch bg-grey flex-grow2 null-margin-left padding-half">
-                        Fogalmazd meg magadban, hogy milyen módon lehet elérni a célodat.
                         Szedd pontokba a cél eléréséhez szükséges lépéseket és írd föl azokat.
-                        Reggelente ébredéskor még ágyban fekve ellenőrizd gondolatban a listán szereplő lépések
-                        teljesítését.
+                        Minden nap a lista alapján ellenőrizd magad.
                     </p>
                     <p class="flex-content flex-auto bg-grey padding-half">
-                        Táplálkozz egészségesen minden nap. Változtasd meg a jelenlegi táplálkozásodat!
-                        Iktasd ki a cukros, lisztes és olajos ételeket, válaszd a zöldségeket, gyümölcsöket.
-                        A célod az egészséges dolgok fogyasztása legyen!
+                        Táplálkozz egészségesen!
+                        Iktasd ki a cukros, lisztes és olajos ételeket,
+                        válaszd helyettük a zöldségeket, gyümölcsöket!
                     </p>
                     <div class="flex-content stretch bg-red null-margin-right padding-half">
                         <h2 class="bg-grey">
@@ -184,16 +197,12 @@
                         </h2>
                     </div>
                     <p class="flex-content stretch bg-grey flex-grow2 null-margin-left padding-half">
-                        Állítsd össze az étrendet, készíts edzéstervet!
-                        Készíts bevásárlólistát és szerezd be a heti szükségleteidet.
-                        Minden nap kövesd a listát és tartsd észben a kitűzött célt!
-                        Mindíg tudd, hogy mit fogsz enni és tenni.
+                        Állítsd össze az étrendet, készíts bevásárlólistát és edzéstervet!
+                        Kövesd a tervedet!
                     </p>
                     <p class="flex-content flex-auto bg-grey padding-half">
-                        A célok elérésében fontos a környezeted támogatása.
-                        Fontos, hogy megfelelően tudj koncentrálni a céljaidra.
-                        Sokat segít, ha tudják, miben és hogyan tudnak neked segíteni.
-                        Ha csatlakoznak hozzád, akkor egymást motiválva könnyebben célba értek!
+                        Vedd rá családodat és barátaidat a csatlakozásra! Csináljátok
+                        együtt! Egymást segítve könnyebben célba értek!
                     </p>
                     <div class="flex-content bg-red">
                         <a href="#">
