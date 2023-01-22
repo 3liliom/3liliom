@@ -17,7 +17,7 @@ main .flex-content {
     align-items: center;
     margin: 0 var(--padding-w);
     padding: var(--padding-h) var(--padding-w);
-    opacity: 0.8;
+    opacity: 0.75;
     text-align: justify;
 }
 
@@ -41,8 +41,7 @@ main h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-main .flex-table p,
-main .flex-table a {
+main .flex-table p {
     text-indent: 3rem;
     font-size: 1.25rem;
 }
@@ -61,6 +60,18 @@ main .flex-table a {
 
 .flex-grow2 {
     flex-grow: 2;
+}
+
+.null-margin-left {
+    margin-left: 0 !important;
+}
+
+.null-margin-right {
+    margin-right: 0 !important;
+}
+
+.padding-half {
+    padding: 0 var(--padding-w) !important;
 }
 
 .content-self-bottom {
