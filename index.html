@@ -45,11 +45,11 @@
         <nav class="flex-box">
             <a id="homeIcon" href="#home" class="navbar-top-ikon"><i class="fa fa-home"></i> </a>
             <div id="topNavbar" class="flex-content hide-small">
+                <a href="https://3liliom.hu/shop" class="navbar-top-item"><i
+                        class="fa fa-shopping-bag"></i>&nbsp;WEBSHOP</a>
                 <a href="#portfolio" class="navbar-top-item"><i class="fa fa-th"></i>
                     &nbsp;MAGAZIN</a>
                 <a href="#contact" class="navbar-top-item"><i class="fa fa-envelope"></i>&nbsp;KAPCSOLAT</a>
-                <a href="https://3liliom.hu/shop" class="navbar-top-item"><i
-                        class="fa fa-shopping-bag"></i>&nbsp;WEBSHOP</a>
             </div>
 
             <!-- Navbar on small screens -->
@@ -93,73 +93,142 @@
                     </h1>
                 </div>
                 <div class="flex-box h60">
-                    <div class="flex-box flex-column flex-content flex-grow3 bg-red">
-                        <h2 class="bg-grey">
-                            Itt&nbsp;az&nbsp;ideje&nbsp;az egészségeddel&nbsp;foglalkozni?
-                        </h2>
-                        <a id="mark01" href="#mozogj" class="left-text hide">
-                            <strong>Mozogj</strong> te is rendszeresen,<br />
-                        </a>
-                        <a id="mark02" class="right-text hide" href="#erezd-magad-jol">
-                            <strong>érezd magad jól</strong> a bőrödben,<br />
-                        </a>
-                        <a id="mark03" href="#sziveddel" class="left-text hide">
-                            törődj a <strong>szíveddel</strong>,<br />
-                        </a>
-                        <a id="mark04" class="right-text hide" href="#tartsd-karban">
-                            <strong>tartsd karban</strong> az érrendszeredet,<br />
-                        </a>
-                        <a id="mark05" href="#egeszseges" class="left-text hide">
-                            táplálkozz <strong>egészségesen</strong>,<br />
-                        </a>
-                        <a id="mark06" class="right-text hide" href="#mozogj">
-                            és csak <strong>élj</strong> egy hoszzú és boldog életet!
-                        </a>
-                        <script>
-                            let mark01 = document.getElementById('mark01');
-                            let mark02 = document.getElementById('mark02');
-                            let mark03 = document.getElementById('mark03');
-                            let mark04 = document.getElementById('mark04');
-                            let mark05 = document.getElementById('mark05');
-                            let mark06 = document.getElementById('mark06');
-                            const d = new Date();
-                            day = d.getDate();
-                            if (day % 2 == 0) {
-                                mark01.className = mark01.className.replace(" hide", "");
-                                mark02.className = mark02.className.replace(" hide", "");
-                                mark03.className = mark03.className.replace(" hide", "");
-                            } else {
-                                mark04.className = mark04.className.replace(" hide", "");
-                                mark05.className = mark05.className.replace(" hide", "");
-                                mark06.className = mark06.className.replace(" hide", "");
-                            }
-                        </script>
-                        <h3>
-                            Csatlakozz azokhoz a milliókhoz, akik már most is a tudatos életmód előnyeivel élnek!
-                        </h3>
+                    <div class="flex-content flex-grow3 bg-red">
+                        <div class="flex-box flex-column">
+                            <h2 class="bg-grey">
+                                Itt&nbsp;az&nbsp;ideje&nbsp;az egészségeddel&nbsp;foglalkozni?
+                            </h2>
+                            <a id="mark01" href="#mozogj" class="left-text hide">
+                                <strong>Mozogj</strong> te is rendszeresen,<br />
+                            </a>
+                            <a id="mark02" class="right-text hide" href="#erezd-magad-jol">
+                                <strong>érezd magad jól</strong> a bőrödben,<br />
+                            </a>
+                            <a id="mark03" href="#sziveddel" class="left-text hide">
+                                törődj a <strong>szíveddel</strong>,<br />
+                            </a>
+                            <a id="mark04" class="right-text hide" href="#tartsd-karban">
+                                <strong>tartsd karban</strong> az érrendszeredet,<br />
+                            </a>
+                            <a id="mark05" href="#egeszseges" class="left-text hide">
+                                táplálkozz <strong>egészségesen</strong>,<br />
+                            </a>
+                            <a id="mark06" class="right-text hide" href="#mozogj">
+                                és csak <strong>élj</strong> egy hoszzú és boldog életet!
+                            </a>
+                            <script>
+                                let mark01 = document.getElementById('mark01');
+                                let mark02 = document.getElementById('mark02');
+                                let mark03 = document.getElementById('mark03');
+                                let mark04 = document.getElementById('mark04');
+                                let mark05 = document.getElementById('mark05');
+                                let mark06 = document.getElementById('mark06');
+                                const d = new Date();
+                                day = d.getDate();
+                                if (day % 2 == 0) {
+                                    mark01.className = mark01.className.replace(" hide", "");
+                                    mark02.className = mark02.className.replace(" hide", "");
+                                    mark03.className = mark03.className.replace(" hide", "");
+                                } else {
+                                    mark04.className = mark04.className.replace(" hide", "");
+                                    mark05.className = mark05.className.replace(" hide", "");
+                                    mark06.className = mark06.className.replace(" hide", "");
+                                }
+                            </script>
+                            <h3>
+                                Csatlakozz azokhoz a milliókhoz, akik már most is a tudatos életmód előnyeivel élnek!
+                            </h3>
+                        </div>
                     </div>
-                    <div class="flex-table flex-column flex-content content-self-bottom flex-grow2 bg-grey">
+                    <div class="flex-content content-self-bottom flex-grow2 bg-grey">
+                        <div class="flex-box flex-column ">
+                            <a class="bg-red h2" href="#marketing">
+                                Kezdd&nbsp;el&nbsp;még&nbsp;ma!
+                            </a>
 
-                        <a class="bg-red h2" href="#marketing">
-                            Kezdd&nbsp;el&nbsp;még&nbsp;ma!
-                        </a>
-
-                        <h3>
-                            Tudatos életmód
-                        </h3>
-                        <p>
-                            Ismerkedjünk meg a szervezetünk szükségleteivel! Jelöljük ki, hogy mi szükséges
-                            életünk jobbá tételéhez! Az egészségünk megőrzéséért alakítsunk ki egy tudatos életmódot!
-                        </p>
-                        <a href="#marketing">
-                            <i id="marketing" class="fa fa-angle-down center-text" aria-hidden="true"></i>
-                        </a>
+                            <h3>
+                                Tudatos életmód
+                            </h3>
+                            <p>
+                                Ismerkedjünk meg a szervezetünk szükségleteivel! Jelöljük ki, hogy mi szükséges
+                                életünk jobbá tételéhez! Az egészségünk megőrzéséért alakítsunk ki egy tudatos
+                                életmódot!
+                            </p>
+                            <a href="#marketing">
+                                <i id="marketing" class="fa fa-angle-down center-text" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div style="border: 1px solid black">
-
+            <div class="flex-box flex-column" style="border: 1px solid black">
+                <div class="flex-content  stretch bg-grey">
+                    <p>
+                        A tudatos táplálkozás és a rendszeres testmozgás rendkívül pozitívan hatnak az egészségre.
+                        Fontos a szerepük az ideális testsúly elérésében és megtartásában,
+                        valamint a fizikai és a mentális teljesítőképesség mértékében is.
+                    </p>
+                </div>
+                <div class="flex-box flex-content">
+                    <div class="flex-content stretch bg-red flex-grow1">
+                        <h4 class="bg-grey">
+                            Tűzd ki a célod!
+                        </h4>
+                    </div>
+                    <div class="flex-content stretch bg-grey flex-grow2">
+                        Úgy tűzd ki a célod, hogy reális esélye van a megvalósulásra.
+                        Ilyen cél lehet például 10 kg-t fogyni egy év alatt.
+                    </div>
+                </div>
+                <div class="flex-content  stretch bg-grey">
+                    <p>
+                        Célod eléréséhez változtasd meg szokásaidat, tudatosan alakítsd át életmódodat.
+                        Ha például fogyni szeretnél, akkor nem szabad cukros és olajos ételeket fogyasztanod.
+                    </p>
+                </div>
+                <div class="flex-box flex-content">
+                    <div class="flex-content stretch bg-red flex-grow1">
+                        <h4 class="bg-grey">
+                            Készíts listát
+                        </h4>
+                    </div>
+                    <div class="flex-content stretch bg-grey flex-grow2">
+                        Szedd pontokba a cél eléréséhez szükséges lépéseket és írd föl azokat.
+                        Minden nap a lista alapján ellenőrizd magad.
+                    </div>
+                </div>
+                <div class="flex-content  stretch bg-grey">
+                    <p>
+                        Táplálkozz egészségesen!
+                        Iktasd ki a cukros, lisztes és olajos ételeket,
+                        válaszd helyettük a zöldségeket, gyümölcsöket!
+                    </p>
+                </div>
+                <div class="flex-box flex-content">
+                    <div class="flex-content stretch bg-red flex-grow1">
+                        <h4 class="bg-grey">
+                            Tervezz!
+                        </h4>
+                    </div>
+                    <div class="flex-content stretch bg-grey flex-grow2">
+                        Állítsd össze kalóriatáblázat segítségével az étrendedet!
+                        Bevásárlólista alapján vásárolj!
+                        Készíts edzéstervet!
+                        Kövesd a tervedet!
+                    </div>
+                </div>
+                <div class="flex-content  stretch bg-grey">
+                    <p>
+                        Vedd rá családodat és barátaidat a csatlakozásra! Csináljátok
+                        együtt! Egymást segítve könnyebben célba értek!
+                    </p>
+                </div>
+                <div class="flex-content stretch bg-red">
+                    <a class="bg-grey h2" href="#">
+                        Kérd ingyenesen az ötnapos testsúlycsökkentő étrendet! &#10155;
+                    </a>
+                </div>
             </div>
 
         </section>

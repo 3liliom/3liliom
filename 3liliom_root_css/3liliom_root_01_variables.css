@@ -192,12 +192,20 @@ footer {
     }
 
     main .flex-box {
-        margin: 0.5em 0;
+        margin: 0 !important;
+        padding: 0 !important;
         flex-direction: column;
         justify-content: center;
     }
 
     main .flex-content {
-        margin: 0.5em 0;
+        margin: 0.5em 0 !important;
+        padding: 0.5em 0 !important;
+        align-self: stretch !important;
+        text-align: center !important;
+    }
+
+    * {
+        opacity: 1 !important;
     }
 }

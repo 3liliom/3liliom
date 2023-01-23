@@ -58,6 +58,15 @@ main h3 {
     font-family: var(--font-sans-serif);
 }
 
+main h4 {
+    margin: 0.25em;
+    padding: 0.25em;
+    width: 100%;
+    font-size: 1.75em;
+    font-weight: 100;
+    font-family: var(--font-handwriting);
+}
+
 main .flex-box {
     padding: 0 0.5em;
 }
@@ -82,6 +91,10 @@ main .flex-content:hover {
     opacity: 1;
 }
 
+.flex-grow1 {
+    flex: 1;
+}
+
 .flex-grow2 {
     flex: 2;
 }
@@ -94,29 +107,6 @@ main .flex-content:hover {
     align-self: flex-end !important;
 }
 
-/*
-.width-initial {
-    width: initial;
-}
-
 .stretch {
-    align-self: stretch;
+    align-self: stretch !important;
 }
-
-.flex-auto {
-    flex: auto;
-}
-
-.null-margin-left {
-    margin-left: 0 !important;
-}
-
-.null-margin-right {
-    margin-right: 0 !important;
-}
-
-.padding-half {
-    padding: 0 var(--padding-w) !important;
-}
-
-*/
