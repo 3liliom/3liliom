@@ -10,10 +10,14 @@ nav {
 .navbar-top-item {
     display: inline-block;
     height: 2.2em;
-    padding: 0.5em 1em;
+    padding: 0.5em;
     vertical-align: middle;
     border: none;
     cursor: pointer;
+}
+
+.navbar-top-item {
+    width: 9em;
 }
 
 .navbar-top-ikon:hover,
