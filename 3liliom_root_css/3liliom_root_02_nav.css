@@ -1,55 +1,39 @@
 nav {
-    height: 2.25rem;
-    background-color: var(--navbar-background-color);
-    border-radius: 0 0 10px 10px;
+    height: 2.2em;
+    background-color: var(--anchor-background-color);
+    color: var(--anchor-text-color);
+    text-shadow: var(--anchor-text-shadow);
+    border-radius: 0 0 0.6em 0.6em;
 }
 
 .navbar-top-ikon,
 .navbar-top-item {
     display: inline-block;
-    padding: 8px 16px;
+    height: 2.2em;
+    padding: 0.5em 1em;
     vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: darkslateblue;
-    text-align: center;
-    text-shadow: 0 0 8px white, 0 0 16px lightgoldenrodyellow;
     border: none;
     cursor: pointer;
-    white-space: normal;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.navbar-top-ikon {
-    border-radius: var(--row-padding-h);
 }
 
 .navbar-top-ikon:hover,
 .navbar-top-item:hover {
     color: black !important;
-    font-size: 1.05em;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    box-shadow: var(--anchor-box-shadow);
 }
 
 .navbar-toggle {
     width: 100%;
-    color: darkslateblue;
+    background-color: var(--anchor-background-color);
 }
 
 .navbar-toggle .navbar-top-item {
     display: block;
-    width: 100vw;
-    background-color: var(--navbar-background-color);
-    text-align: left;
+    height: 2.2em;
+    width: 100%;
 }
 
 .navbar-toggle .navbar-top-item:hover {
-    background-color: aliceblue;
-    opacity: 0.85;
+    box-shadow: var(--anchor-box-shadow);
 }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title itemprop='name'>3liliom</title>
+
+    <meta name="keywords"
+        content="ép test, ép lélek, egészséges élet, egészség, környezet, Neolife, életmód, vitalitás, megőrzés" />
+    <meta name="description" content="Az egészség, a vitalitás fenntartása a Neolife programok segítségével" />
+    <meta name="subject" content="A Neolife a jó életminőség záloga" />
+    <meta name="author" content="Gabor J. Kiss" />
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <link rel="canonical" href="//3liliom.hu" itemprop="url">
+
+    <meta name="revised" content='01/23/2023' />
+    <meta name="revisit-after" content="3 days" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="initial-scale=1.0, 
+             maximum-scale=1.0, 
+             minimum-scale=1.0, 
+             user-scalable=no, 
+             minimal-ui" />
+    <meta name="apple-mobile-web-app-title" content="3 liliom" />
+
+    <!-- Page stylesheet -->
+    <link rel="stylesheet" href="3liliom_root_css/3liliom_root_00_styles.css">
+</head>
+
+<body id="home">
+
+    <header class="fixed-top">
+        <!-- ---------------------------------------------------------------- -->
+        <!-- Navbar (sit on top) -->
+        <!-- ---------------------------------------------------------------- -->
+        <nav class="flex-box">
+            <a id="homeIcon" href="#home" class="navbar-top-ikon"><i class="fa fa-home"></i> </a>
+            <div id="topNavbar" class="flex-content hide-small">
+                <a href="#about" class="navbar-top-item"><i class="fa fa-user"></i>
+                    &nbsp;3&nbsp;LILIOM</a>
+                <a href="#portfolio" class="navbar-top-item"><i class="fa fa-th"></i>
+                    &nbsp;MAGAZIN</a>
+                <a href="#contact" class="navbar-top-item"><i class="fa fa-envelope"></i>&nbsp;KAPCSOLAT</a>
+                <a href="https://3liliom.hu/shop" class="navbar-top-item"><i
+                        class="fa fa-shopping-bag"></i>&nbsp;WEBSHOP</a>
+            </div>
+
+            <!-- Navbar on small screens -->
+            <a class="navbar-top-ikon hide-large hide-medium" href="javascript:void(0);" title="Toggle Navigation Menu"
+                onclick="toggleFunction()"><i class="fa fa-bars"></i>
+            </a>
+            <div id="toggleNavbar" class="flex-content navbar-toggle hide">
+                <a href="#about" class="navbar-top-item" onclick="toggleFunction()">3 LILIOM</a>
+                <a href="#portfolio" class="navbar-top-item" onclick="toggleFunction()">MAGAZIN</a>
+                <a href="#contact" class="navbar-top-item" onclick="toggleFunction()">KAPCSOLAT</a>
+                <a href="https://3liliom.hu/shop" class="navbar-top-item" onclick="toggleFunction()">WEBSHOP</a>
+            </div>
+
+        </nav>
+        <script>
+            function toggleFunction() {
+                var toggleNavbar = document.getElementById("toggleNavbar");
+                if (toggleNavbar.className.indexOf("hide") == -1) {
+                    toggleNavbar.className += " hide";
+                } else {
+                    toggleNavbar.className = toggleNavbar.className.replace(" hide", "");
+                }
+            }
+        </script>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer id="bottom" class="center-text">
+        <div class="flex-box">
+            <a href="https://3liliom.hu/shop/content/5-05-elso-level" class="flex-content bg-grey">
+                <i class="fa fa-handshake-o"></i>
+                &nbsp;Első levél
+            </a>
+            <a href="https://3liliom.hu/shop/7-akcio" class="flex-content bg-red">
+                <i class="fa fa-eye"></i>
+                &nbsp;Neolife Akciók
+            </a>
+            <a href="https://3liliom.hu/shop/content/category/5-videotar" class="flex-content bg-grey">
+                <span>
+                    <i class="fa fa-film"></i>
+                    &nbsp;Videótár
+                </span>
+            </a>
+        </div>
+        <p>
+            <b>
+                &copy; 2022-
+                <script> document.write(new Date().getFullYear())</script>
+            </b>
+            <br />
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img alt="Creative Commons Licenc" title="Creative Commons Licenc" style="border-width:0"
+                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
