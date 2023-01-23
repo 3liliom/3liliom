@@ -1,68 +1,109 @@
 .mission-message {
     height: 40vh;
-    min-height: 300px;
+    min-height: 240px;
 }
 
 .mission-message h1 {
     text-align: center;
     font-family: var(--font-sans-serif);
     font-weight: 300;
+    text-shadow: var(--body-text-shadow);
 }
 
-/*
-main .flex-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 var(--padding-w);
-    padding: var(--padding-h) var(--padding-w);
-    opacity: 0.75;
-    text-align: justify;
-}
-
-main .flex-table * {
+main p {
+    margin: 0.5em;
+    padding: 0.5em;
     width: 100%;
+    text-align: justify;
+    text-indent: 3rem;
+    font-size: 1.25em;
 }
 
-.width-initial {
-    width: initial;
+main a {
+    padding: 0.5em;
+    width: 100% !important;
+    color: var(--body-text-color);
+    text-shadow: var(--body-text-shadow);
+    text-align: center;
+    font-size: 1.25em;
+    border: 1px solid transparent;
+    opacity: 0.85;
 }
 
+main a:hover {
+    border-radius: 0.5em;
+    border: 1px solid white;
+    opacity: 1;
+}
+
+main a.h2,
 main h2 {
-    font-size: 2.5rem;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 100%;
+    font-size: 2em;
     font-weight: 100;
-    font-family: 'Bilbo', cursive;
+    font-family: var(--font-handwriting);
     text-align: center;
     border: 1px solid white;
     border-radius: 10px;
 }
 
 main h3 {
-    font-size: 1.75rem;
-    padding-top: 2.25rem;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 100%;
     font-weight: 100;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--font-sans-serif);
 }
 
-main .flex-table p {
-    text-indent: 3rem;
-    font-size: 1.25rem;
+main .flex-box {
+    padding: 0 0.5em;
 }
 
-.flex-auto {
-    flex: auto;
+
+.h60 {
+    min-height: 60vh !important;
+}
+
+main .flex-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    opacity: 0.75;
+    text-align: justify;
+}
+
+main .flex-content:hover {
+    opacity: 1;
+}
+
+.flex-grow2 {
+    flex: 2;
+}
+
+.flex-grow3 {
+    flex: 3;
+}
+
+.content-self-bottom {
+    align-self: flex-end !important;
+}
+
+/*
+.width-initial {
+    width: initial;
 }
 
 .stretch {
     align-self: stretch;
 }
 
-.h60 {
-    min-height: 60vh !important;
-}
-
-.flex-grow2 {
-    flex-grow: 2;
+.flex-auto {
+    flex: auto;
 }
 
 .null-margin-left {
@@ -77,22 +118,4 @@ main .flex-table p {
     padding: 0 var(--padding-w) !important;
 }
 
-.content-self-bottom {
-    align-self: flex-end !important;
-}
-
-main .flex-content:hover {
-    opacity: 1;
-}
-
-@media (max-width:720px) {
-    main .flex-table {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    main .flex-content {
-        margin: 0;
-    }
-}
 */

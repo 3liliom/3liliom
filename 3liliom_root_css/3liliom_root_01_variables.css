@@ -103,6 +103,10 @@ footer {
     text-align: center;
 }
 
+.left-text {
+    text-align: left;
+}
+
 .right-text {
     text-align: right;
 }
@@ -185,5 +189,15 @@ footer {
     nav.flex-box {
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+
+    main .flex-box {
+        margin: 0.5em 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .flex-content {
+        margin: 0.5em 0;
     }
 }

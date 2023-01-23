@@ -92,6 +92,74 @@
                         tisztasága,&nbsp;védelme
                     </h1>
                 </div>
+                <div class="flex-box h60">
+                    <div class="flex-box flex-column flex-content flex-grow3 bg-red">
+                        <h2 class="bg-grey">
+                            Itt&nbsp;az&nbsp;ideje&nbsp;az egészségeddel&nbsp;foglalkozni?
+                        </h2>
+                        <a id="mark01" href="#mozogj" class="left-text hide">
+                            <strong>Mozogj</strong> te is rendszeresen,<br />
+                        </a>
+                        <a id="mark02" class="right-text hide" href="#erezd-magad-jol">
+                            <strong>érezd magad jól</strong> a bőrödben,<br />
+                        </a>
+                        <a id="mark03" href="#sziveddel" class="left-text hide">
+                            törődj a <strong>szíveddel</strong>,<br />
+                        </a>
+                        <a id="mark04" class="right-text hide" href="#tartsd-karban">
+                            <strong>tartsd karban</strong> az érrendszeredet,<br />
+                        </a>
+                        <a id="mark05" href="#egeszseges" class="left-text hide">
+                            táplálkozz <strong>egészségesen</strong>,<br />
+                        </a>
+                        <a id="mark06" class="right-text hide" href="#mozogj">
+                            és csak <strong>élj</strong> egy hoszzú és boldog életet!
+                        </a>
+                        <script>
+                            let mark01 = document.getElementById('mark01');
+                            let mark02 = document.getElementById('mark02');
+                            let mark03 = document.getElementById('mark03');
+                            let mark04 = document.getElementById('mark04');
+                            let mark05 = document.getElementById('mark05');
+                            let mark06 = document.getElementById('mark06');
+                            const d = new Date();
+                            day = d.getDate();
+                            if (day % 2 == 0) {
+                                mark01.className = mark01.className.replace(" hide", "");
+                                mark02.className = mark02.className.replace(" hide", "");
+                                mark03.className = mark03.className.replace(" hide", "");
+                            } else {
+                                mark04.className = mark04.className.replace(" hide", "");
+                                mark05.className = mark05.className.replace(" hide", "");
+                                mark06.className = mark06.className.replace(" hide", "");
+                            }
+                        </script>
+                        <h3>
+                            Csatlakozz azokhoz a milliókhoz, akik már most is a tudatos életmód előnyeivel élnek!
+                        </h3>
+                    </div>
+                    <div class="flex-table flex-column flex-content content-self-bottom flex-grow2 bg-grey">
+
+                        <a class="bg-red h2" href="#marketing">
+                            Kezdd&nbsp;el&nbsp;még&nbsp;ma!
+                        </a>
+
+                        <h3>
+                            Tudatos életmód
+                        </h3>
+                        <p>
+                            Ismerkedjünk meg a szervezetünk szükségleteivel! Jelöljük ki, hogy mi szükséges
+                            életünk jobbá tételéhez! Ehhez alakítsunk ki egy sokkal tudatosabb életmódot!
+                        </p>
+                        <a href="#marketing">
+                            <i id="marketing" class="fa fa-angle-down center-text" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="border: 1px solid black">
+
             </div>
 
         </section>
