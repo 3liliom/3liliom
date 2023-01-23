@@ -41,7 +41,7 @@ main h2 {
     margin: 0.5em;
     padding: 0.5em;
     width: 100%;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 100;
     font-family: var(--font-handwriting);
     text-align: center;
@@ -53,6 +53,7 @@ main h3 {
     margin: 0.5em;
     padding: 0.5em;
     width: 100%;
+    font-size: 1.75em;
     font-weight: 100;
     font-family: var(--font-sans-serif);
 }
