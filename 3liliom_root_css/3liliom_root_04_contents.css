@@ -110,3 +110,7 @@ main .flex-content:hover {
 .stretch {
     align-self: stretch !important;
 }
+
+.opacity1 {
+    opacity: 1 !important;
+}

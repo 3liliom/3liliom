@@ -165,7 +165,7 @@ footer {
     }
 }
 
-@media (max-width: 1200px) and (min-width: 721px) {
+@media (max-width: 1200px) and (min-width: 861px) {
     .hide-medium {
         display: none !important;
     }
@@ -173,9 +173,15 @@ footer {
     nav.flex-box {
         justify-content: flex-start;
     }
+
+    .flex-grow1,
+    .flex-grow2,
+    .flex-grow3 {
+        flex: 1 auto !important;
+    }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 860px) {
     .hide-small {
         display: none !important;
     }
