@@ -173,12 +173,6 @@ footer {
     nav.flex-box {
         justify-content: flex-start;
     }
-
-    .flex-grow1,
-    .flex-grow2,
-    .flex-grow3 {
-        flex: 1 auto !important;
-    }
 }
 
 @media (max-width: 860px) {
