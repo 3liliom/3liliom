@@ -16,6 +16,7 @@
     --font-sans-serif: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     --font-serif: Georgia, 'Times New Roman', Times, serif;
     --font-mono-space: 'Courier New', Courier, monospace;
+    --font-handwriting: 'Bilbo', cursive;
 }
 
 * {
@@ -40,11 +41,13 @@ body {
     min-height: 100vh !important;
     background-color: var(--body-background-color);
     text-shadow: var(--body-text-shadow);
+    font-family: var(--font-serif);
 }
 
 header,
 footer {
     width: 100%;
+    font-family: var(--font-sans-serif);
 }
 
 footer {

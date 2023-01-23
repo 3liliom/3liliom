@@ -1,16 +1,15 @@
 .mission-message {
-    padding: var(--h1-padding-h) 0 0;
     height: 40vh;
     min-height: 300px;
 }
 
 .mission-message h1 {
-    padding: var(--h1-padding-h) var(--h1-padding-w) 0;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--font-sans-serif);
     font-weight: 300;
 }
 
+/*
 main .flex-content {
     display: flex;
     justify-content: center;
@@ -96,3 +95,4 @@ main .flex-content:hover {
         margin: 0;
     }
 }
+*/

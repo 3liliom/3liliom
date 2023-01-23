@@ -2,7 +2,6 @@ footer .flex-content {
     flex: 1 1 0;
     height: 4em;
     width: 100%;
-    font-family: var(--font-sans-serif);
     font-size: 1.2em;
     font-weight: 900;
     line-height: 4em;
