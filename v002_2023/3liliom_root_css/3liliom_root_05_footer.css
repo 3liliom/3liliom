@@ -1,0 +1,38 @@
+footer .flex-content {
+    height: 8vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 8vh;
+    overflow: hidden;
+}
+
+footer .flex-content:hover {
+    font-size: 1.25rem;
+    text-shadow: 0 0 2px white, 0 0 16px lightgoldenrodyellow;
+}
+
+@media (max-width:720px) {
+    .hide-small {
+        display: none !important;
+    }
+
+    nav {
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+    .flex-row {
+        justify-content: space-between;
+    }
+
+    .flex-center {
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .flex-content {
+        flex: auto;
+        width: 100%;
+    }
+}
