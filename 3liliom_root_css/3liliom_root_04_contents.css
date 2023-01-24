@@ -71,9 +71,12 @@ main .flex-box {
     padding: 0 0.5em;
 }
 
-
 .h60 {
     min-height: 60vh !important;
+}
+
+.h80 {
+    min-height: 80vh !important;
 }
 
 main .flex-content {

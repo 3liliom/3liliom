@@ -1,14 +1,23 @@
 :root {
     --day-of-origin: '2023-01-06';
 
-    --body-background-color: rgba(0, 0, 0, 0.55);
+    --body-background-color: rgba(32, 64, 128, 0.55);
     --body-text-color: aliceblue;
     --body-text-shadow: 0 0 6px black;
+
+    --ordinary-background-color: rgba(0, 0, 0, 0.55);
+    --ordinary-text-color: aliceblue;
+    --ordinary-text-shadow: 0 0 6px black;
 
     --anchor-background-color: rgba(255, 255, 255, 0.85);
     --anchor-text-color: darkslateblue;
     --anchor-text-shadow: 0 0 8px white, 0 0 16px lightgoldenrodyellow;
     --anchor-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    --important-background-color: rgba(255, 32, 16, 0.85);
+    --important-text-color: white;
+    --important-text-shadow: 0 0 4px black, 0 0 8px lightgoldenrodyellow;
+    --important-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     --screen-unit: 0.25vmin;
     --large-content-width: 1200px;
@@ -44,15 +53,23 @@ body {
     font-family: var(--font-serif);
 }
 
+.important {
+    color: var(--important-text-color);
+    background-color: var(--important-background-color);
+    text-shadow: var(--important-text-shadow);
+    box-shadow: var(--important-box-shadow);
+}
+
+.ordinary {
+    color: var(--ordinary-text-color);
+    background-color: var(--ordinary-background-color);
+    text-shadow: var(--ordinary-text-shadow);
+}
+
 header,
 footer {
     width: 100%;
     font-family: var(--font-sans-serif);
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
 }
 
 .flex-box {
@@ -89,14 +106,6 @@ footer {
 
 .flex-content {
     max-width: var(--large-content-width);
-}
-
-.bg-red {
-    background-color: red;
-}
-
-.bg-grey {
-    background-color: grey;
 }
 
 .center-text {
