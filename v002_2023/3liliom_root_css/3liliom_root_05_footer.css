@@ -8,6 +8,7 @@ footer .flex-content {
 }
 
 footer .flex-content:hover {
+    font-size: 1.25rem;
     text-shadow: 0 0 2px white, 0 0 16px lightgoldenrodyellow;
 }
 
