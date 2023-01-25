@@ -22,7 +22,7 @@
     --screen-unit: 0.25vmin;
     --large-content-width: 1200px;
 
-    --font-sans-serif: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --font-sans-serif: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --font-serif: Georgia, 'Times New Roman', Times, serif;
     --font-mono-space: 'Courier New', Courier, monospace;
     --font-handwriting: 'Bilbo', cursive;
@@ -79,6 +79,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.m2 {
+    margin: calc(2 * var(--screen-unit)) !important;
 }
 
 .flex-row {
