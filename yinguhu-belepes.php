@@ -1,3 +1,14 @@
+<?php
+session_start();
+$session_name = 'get-usermail';
+
+if (isset($_SESSION['session_history'])) {
+    array_push($_SESSION['session_history'], $session_name);
+} else {
+    $_SESSION['session_history'] = array('start', $session_name);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="hu">
 
@@ -7,10 +18,8 @@
 
     <title itemprop='name'>Belépés</title>
 
-    <meta name="keywords"
-        content="ép test, ép lélek, egészséges élet, egészség megőrzés, környezet, tudatos életmód, életmódváltás, vitalitás" />
-    <meta name="description"
-        content="Az egészség és a vitalitás fenntartása természetes alapokon nyugvó programok segítségével" />
+    <meta name="keywords" content="ép test, ép lélek, egészséges élet, egészség megőrzés, környezet, tudatos életmód, életmódváltás, vitalitás" />
+    <meta name="description" content="Az egészség és a vitalitás fenntartása természetes alapokon nyugvó programok segítségével" />
     <meta name="subject" content="A jó életminőség és a tudatos életmód" />
     <meta name="author" content="Gabor J. Kiss" />
 
@@ -23,7 +32,7 @@
 
     <link rel="canonical" href="//yingu.hu" itemprop="url">
 
-    <meta name="revised" content='21/06/2023' />
+    <meta name="revised" content='<?php echo date("m/d/Y") ?>' />
     <meta name="revisit-after" content="3 days" />
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -40,63 +49,38 @@
 
     <!-- Page stylesheet -->
 
-    <link rel="stylesheet" href="https://b6sics.github.io/levAIpack/root-directories/root-css-2022/style.css?t=123" />
+    <link rel="stylesheet" href="3liliom_root_css/3liliom_root_00_styles.css" />
 </head>
 
 <body id="home">
-    <header class="right vertical">
+    <header>
         <h1>
             Yingu.hu
         </h1>
     </header>
 
     <form id="orderForm" action="https://yingu.hu/login.php" method="post">
-        <header id="orderText">
+        <header>
             <h2>
-                <i>YINGU LOGIN</i>
+                <i>YINGU OLDALAI</i>
             </h2>
-            <!-- -------------- -->
-            <!-- basket details -->
-            <!-- -------------- -->
-            <textarea id="basketList" name="basketList" readonly>Termék:</textarea>
         </header>
-        <section id="inputList" class="center vertical">
-            <div class="center vertical fillParentsWidth">
-                <header class="fillParentsWidth txtinitial">
-                    <h3 style="margin:0;">
-                        Részletek:
-                    </h3>
-                    <!-- -------------- -->
-                    <!-- order  details -->
-                    <!-- -------------- -->
-                    <div id="orderdetails">
-
-                    </div>
-                </header>
-            </div>
-            <article class="center vertical">
-                <div class="right vertical">
+        <section id="inputList">
+            <article>
+                <div>
                     <!-- -------------- -->
                     <!-- product groups -->
                     <!-- -------------- -->
                     <div>
-                        <label for="productGroups">Termék: </label>
+                        <label for="productGroups">Témakörök: </label>
                         <select id="productGroups" class="orderlistDropdown" name="productGroup">
                             <option value="?"> válassz! </option>
-                            <option value="5 napos fogyi">5 napos helyreállító étrend</option>
+                            <option value="5 napos fogyi">5 napos súlycsökkentő étrend</option>
                             <option value="YinGu tea">Yin Gu teák</option>
                         </select>
                     </div>
                 </div>
-                <div class="center vertical fillParentsWidth">
-                    <button id="orderlistBtn" class="orderlistButton" onclick="setBasket(); this.preventDefault();">
-                        Hozzáad a kosárhoz! </button>
-                </div>
                 <div>
-                    <label for="notFound">Nem találom a megfelelőt: </label>
-                    <input type="button" id="notFound" class="notFoundBtn" name="notFound" value="Visszahívást kérek!"
-                        onclick="callMe();" />
-                </div>
             </article>
             <article class="center vertical">
                 <div class="right vertical">
@@ -105,21 +89,14 @@
                         <input type="email" id="mail" name="mail" placeholder="szükséges" required /><br />
                     </div>
                     <hr />
-                    <div>
-                        <label for="mail">Telefon:</label>
-                        <input type="tel" id="phone" name="phone" placeholder="szükséges[0..9,+,-, ,(,)]"
-                            pattern="^[0-9-+\s()]*$" required /><br />
-                    </div>
                 </div>
 
                 <p>
                     A megadott e-mail címre megküldjük a visszaigazolást.
                     Kérjük a belépéshez kattintson az e-mailben található megerősítő hivatkozásra.
-                    Amennyiben visszahívást kért, munkatársunk a megadott telefonszámon keresni fogja.
                 </p>
                 <input id="b6datetime" type="hidden" name="b6datetime" value="Y-M-D h:m">
-                <input onkeydown="set_datetime();" type="submit" id="submitOrder" name="submitOrder"
-                    value=" Kérem a linket " />
+                <input onkeydown="set_datetime();" type="submit" id="submitOrder" name="submitOrder" value=" Kérem a linket " />
             </article>
         </section>
     </form>
@@ -192,7 +169,6 @@
             showProductDetailTable();
             notFound.disabled = true;
         }
-
     </script>
 
 </body>
