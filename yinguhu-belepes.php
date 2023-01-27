@@ -74,9 +74,8 @@ if (isset($_SESSION['session_history'])) {
                     <div>
                         <label for="productGroups">Témakörök: </label>
                         <select id="productGroups" class="orderlistDropdown" name="productGroup">
-                            <option value="?"> válassz! </option>
+                            <option value="?"> Válaszd ki a témakört! </option>
                             <option value="5 napos fogyi">5 napos súlycsökkentő étrend</option>
-                            <option value="YinGu tea">Yin Gu teák</option>
                         </select>
                     </div>
                 </div>
@@ -92,10 +91,9 @@ if (isset($_SESSION['session_history'])) {
                 </div>
 
                 <p>
-                    A megadott e-mail címre megküldjük a visszaigazolást.
-                    Kérjük a belépéshez kattintson az e-mailben található megerősítő hivatkozásra.
+                    A megadott e-mail címre küldjük az oldal eléréséhez szükséges linket.
                 </p>
-                <input id="b6datetime" type="hidden" name="b6datetime" value="Y-M-D h:m">
+                <input id="datetime" type="hidden" name="datetime" value="Y-M-D h:m">
                 <input onkeydown="set_datetime();" type="submit" id="submitOrder" name="submitOrder" value=" Kérem a linket " />
             </article>
         </section>
@@ -114,60 +112,7 @@ if (isset($_SESSION['session_history'])) {
             var current_date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
             var current_time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
             var current_datetime = current_date + " " + current_time;
-            document.getElementById("b6datetime").setAttribute('value', current_datetime);
-        }
-
-        let firstOption = '<option value="?"> válassz! </option>';
-
-        let orderTextContent = "Kosár:"
-        let helpDeleteRow = "Kattints a törléshez!"
-        let callMeText = "visszahívást kérek";
-        let notFoundText = "Guru meditáció -"
-
-        let productInBasketClass = "fixed";
-        let productInitialClass = "initial";
-
-        function formatCurrency(number) {
-            return new Intl.NumberFormat('hu-HU', {
-                style: 'currency',
-                currency: 'HUF'
-            }).format(number);
-        }
-
-        /******************/
-        /* product groups */
-        /******************/
-
-        let productGroups = document.getElementById('productGroups');
-
-        const productGroupArray = [];
-
-
-        /******************/
-        /*    call  me    */
-        /******************/
-
-        let notFound = document.getElementById('notFound');
-
-        function callMe() {
-            selectedItem = callMeText;
-            const element = {
-                storageID: Number.MAX_SAFE_INTEGER,
-                stock: 1,
-                productGroup: notFoundText,
-                name: callMeText,
-                price: 0
-            }
-            basket.push(element);
-            orderdetailsArray.push(element);
-            if (basket.length == 0) {
-                submitOrder.disabled = true;
-            } else {
-                submitOrder.disabled = false;
-            }
-            displayBasket();
-            showProductDetailTable();
-            notFound.disabled = true;
+            document.getElementById("datetime").setAttribute('value', current_datetime);
         }
     </script>
 
